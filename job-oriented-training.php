@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <title>Job Oriented Training :: Yourskill Book</title>
+      <link rel="icon" type="image/png" href="img/fav.png">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="css/flaticon.css">
+      <link rel="stylesheet" href="css/remixicon.css">
+      <link rel="stylesheet" href="css/meanmenu.min.css">
+      <link rel="stylesheet" href="css/odometer.min.css">
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/dark-mode.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/gallery.css">
+      <link rel="stylesheet" href="fontawesome/css/all.css">
+   </head>
+   <body>
+      <?php
+         include 'include/header.php';
+         ?> 
+      <section class="sfnvbdfdf">
+       <div class="row">
+          <h1>Job Oriented Training</h1>
+          </div>
+       </section>
+      <section class="fbdfdbdfbdf">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-2">
+                  <p>Latest Updates :-</p>
+               </div>
+               <div class="col-md-10">
+                  <marquee behavior="scroll" direction="left" onmousedown="this.stop()" onmouseup="this.start()">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</marquee>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="dfbljkdfgbdfg">
+       <div class="container">
+          <div class="row">
+					<div class="col-lg-8 dfbjhdfgbfgbf">
+						<h4>Project Based  Industrial Training</h4>
+                        <p>Regular training programs run at our centers, We also conduct following in-house/In-campus training programs at your college/Institutions:</p>
+                        <p>>> 2-4-6-week/ 3-6-months In-campus/ Summer/Project/Industrial Training programs.</p>
+                        <p>>> 2-4 Hrs/ 1-2 days Wokshop/Seminar/Expert Lecture in your institution/college</p>
+                        <p>>> Industrial visits at our facility or our client companies.</p>
+                        <p>Qualification/Branches: Mtech/BE/BTech/Diploma (Electrical, Electronics, CS, IT, Mechanical & Mechatronics, Civil, MCA,BCA)</p>
+                        <h4>Electronics</h4>
+                        <ul>
+                        <li>Industrial Automation System Training <span><a href="#">Course Detail</a></span></li>
+                        <li>Integrated Building Management System Training <span><a href="#">Course Detail</a></span></li>
+                        <li>Embedded System & Applied Robotics Training <span><a href="#">Course Detail</a></span></li>
+                        <li>Instrumentation  Design & Drafting Training <span><a href="#">Course Detail</a></span></li>
+                        <li>PCB & Circuit Design & Drafting Training <span><a href="#">Course Detail</a></span></li>
+                        <li>Solar Desgin & Drafting Training <span><a href="#">Course Detail</a></span></li>
+                        <li>Matlab Training <span><a href="#">Course Detail</a></span></li>
+                        <li>Labview Training <span><a href="#">Course Detail</a></span></li>
+                        <li>VLSI Training <span><a href="#">Course Detail</a></span></li>
+                        
+                        </ul>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="sidebar-wrap ml-15">
+							<div class="sidebar-widget recent-post">
+								<h3>Recent Posts</h3>
+								<div class="recent-post-wrap">
+									<article class="item sfbdfbdfdfb">
+										<a href="#" class="thumb">
+											<img src="img/bg-testimonial.jpg">
+										</a>
+										<div class="info">
+											<h4 class="title usmall dfdfgnfgnfg">
+												<a href="#">Event Details 1</a>
+											</h4>
+											<span class="date">
+												<i class="ri-calendar-2-fill"></i> 
+												Jan 15, 2024
+											</span>
+										</div>
+									</article>
+                                    <article class="item sfbdfbdfdfb">
+										<a href="#" class="thumb">
+											<img src="img/bg-testimonial.jpg">
+										</a>
+										<div class="info">
+											<h4 class="title usmall dfdfgnfgnfg">
+												<a href="#">Event Details 1</a>
+											</h4>
+											<span class="date">
+												<i class="ri-calendar-2-fill"></i> 
+												Jan 15, 2024
+											</span>
+										</div>
+									</article>
+                                    <article class="item sfbdfbdfdfb">
+										<a href="#" class="thumb">
+											<img src="img/bg-testimonial.jpg">
+										</a>
+										<div class="info">
+											<h4 class="title usmall dfdfgnfgnfg">
+												<a href="#">Event Details 1</a>
+											</h4>
+											<span class="date">
+												<i class="ri-calendar-2-fill"></i> 
+												Jan 15, 2024
+											</span>
+										</div>
+									</article>
+                                    <article class="item sfbdfbdfdfb">
+										<a href="#" class="thumb">
+											<img src="img/bg-testimonial.jpg">
+										</a>
+										<div class="info">
+											<h4 class="title usmall dfdfgnfgnfg">
+												<a href="#">Event Details 1</a>
+											</h4>
+											<span class="date">
+												<i class="ri-calendar-2-fill"></i> 
+												Jan 15, 2024
+											</span>
+										</div>
+									</article>
+                                    <article class="item sfbdfbdfdfb">
+										<a href="#" class="thumb">
+											<img src="img/bg-testimonial.jpg">
+										</a>
+										<div class="info">
+											<h4 class="title usmall dfdfgnfgnfg">
+												<a href="#">Event Details 1</a>
+											</h4>
+											<span class="date">
+												<i class="ri-calendar-2-fill"></i> 
+												Jan 15, 2024
+											</span>
+										</div>
+									</article>
+                                    
+	                           </div>
+							</div>
+
+							
+						</div>
+					</div>
+				</div>
+           
+           </div>
+       </section>
+      
+      <?php
+         include 'include/footer.php';
+         ?> 
+      <div class="go-top"><i class="ri-arrow-up-s-fill"></i><i class="ri-arrow-up-s-fill"></i></div>
+      <script data-cfasync="false" src="js/email-decode.min.js"></script>
+       <script src="js/jquery.min.js"></script>
+       <script src="js/bootstrap.bundle.min.js"></script>
+       <script src="js/meanmenu.min.js"></script>
+       <script src="js/owl.carousel.min.js"></script>
+       <script src="js/swiper-bundle.min.js"></script>
+       <script src="js/appear.min.js"></script>
+       <script src="js/odometer.min.js"></script>
+       <script src="js/wow.min.js"></script>
+       <script src="js/form-validator.min.js"></script>
+       <script src="js/contact-form-script.js"></script>
+       <script src="js/ajaxchimp.min.js"></script>
+       <script src="js/custom.js"></script>
+       <script src="js/gallery.js"></script>
+       <script>
+
+		$('.w3_section_1_gallery_grid a').simpleLightbox();
+
+	</script>
+   </body>
+</html>

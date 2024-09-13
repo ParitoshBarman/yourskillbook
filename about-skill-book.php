@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <title>About Skill Book :: Yourskill Book</title>
+      <link rel="icon" type="image/png" href="img/fav.png">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="css/flaticon.css">
+      <link rel="stylesheet" href="css/remixicon.css">
+      <link rel="stylesheet" href="css/meanmenu.min.css">
+      <link rel="stylesheet" href="css/odometer.min.css">
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/dark-mode.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="fontawesome/css/all.css">
+   </head>
+   <body>
+      <?php
+         include 'include/header.php';
+         ?> 
+      <section class="sfnvbdfdf">
+       <div class="row">
+          <h1>About Skill Book</h1>
+          </div>
+       </section>
+      <section class="fbdfdbdfbdf">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-2">
+                  <p>Latest Updates :-</p>
+               </div>
+               <div class="col-md-10">
+                  <marquee behavior="scroll" direction="left" onmousedown="this.stop()" onmouseup="this.start()">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</marquee>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="dfbljkdfgbdfg">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+               <div class="dfbndfgnfgddf">
+                   <p><strong>SKILL BOOK SKILL DEVELOPMENT CENTRE is a leading industrial training institute in India providing 100% Placement Assistance.</strong></p>
+                   <h4>Mission:</h4>
+                   <p>Our mission is to provide high-quality training to technical students, equipping them with both theoretical knowledge and practical skills essential for success in their chosen fields. We are committed to bridging the gap between industry requirements and academic learning through innovative training programs, real-world projects, and industry collaborations. We aim to empower individuals with the expertise needed to excel in diverse technical disciplines, thereby contributing to their personal growth and the advancement of industries.</p>
+                   <h4>Vision:</h4>
+                   <p>Our vision at SKILL BOOK SKILL DEVELOPMENT CENTRE is to be a leading institution in India, recognized for excellence in vocational training and professional development. We aspire to continually evolve our curriculum and teaching methodologies to meet the dynamic demands of industries. By nurturing talent and fostering a culture of innovation and lifelong learning, we strive to produce skilled professionals who are ready to tackle the challenges of today and lead the advancements of tomorrow. Through our dedication to quality, integrity, and industry relevance, we aim to inspire and empower the next generation of technical leaders.</p>
+                   <h4>How Skill Book Skill Development Centre is Helpful To You?</h4>
+                   <p>Skill Book Skill Development Centre offers industrial training programs for all engineering branches. We have pool of experienced professional trainers having multiple years of industry experience catering to current industry norms and standards.</p>
+                   <h4>Why Skill Book Skill Development Centre ?</h4>
+                   <ul>
+                   <li>NIELIT Accredited Training Centre, founded by Mr. Ashish (Former Design Engineer in Krishna Maruti) and Ms. Pooja (Professor, Computer Sc.) a team of experienced engineers and educators who recognized the growing demand for skilled CADD and Computer professionals in the industry.</li>
+                   <li>The training centre invested in state-of-the-art infrastructure, equipped with the latest software and hardware required for effective learning.</li>
+                   <li>The curriculum was developed in collaboration with industry experts to ensure relevance and practicality.</li>
+                   <li>The centre actively engaged with Delhi Schools, ITIs and Diploma colleges and conducted 40+ Industrial Visits, 40+ seminars, and 30+ guest lectures across prominent institutes like Govt affiliated  Schools, ITIs, IP university colleges, DSEU Campuses, and more to enhance its reach and student enrolment. The outreach efforts included an average of 4-5 seminars per month, reaching approximately 5000 students. </li>
+                   <li>Collaborated with industry partners Vision India,3D Space Interiors, Advance Estimating, Medcuris Healthcare, C&G Survey technical services, and many more participated in 10+ job fairs conducted by Skill Book to enhance placement ratio, Placed 200+ students across various industries.</li>
+                   <li>Every weekend, the training centre hosted free workshops conducted by industry experts exclusively for computer, mechanical, civil, and interior students. Approximately 2000 students gain valuable knowledge and practical insights into their respective fields. This initiative aimed to foster to enhance our reputation among students, reinforcing our commitment to excellence in education and industry readiness.</li>
+                   <li> The training centre is actively involved in providing on-the-job training to 80 + students from ITI Morigate, ITI Mangolpuri, ITI Narela, ITI Dheerpur, DSEU Kasturba, Hindu College Sonipat and more ensuring they gain practical experience and relevant skills for their future endeavours.</li>
+                   <li> SKILL BOOK introduced innovative teaching methodologies including real-world projects for companies, like ESP Enterprises, Cemtech technologies, and many more to enhance practical skills.</li>
+                   </ul>
+                   <h4>Benefits of our Training programs:</h4>
+                   <ul>
+                   <li>100% Job oriented Industrial trainings with Advanced lab.</li>
+                   <li>2/4/6 Week Summer / Winter / Project / In-Campus Training (with Live Project)</li>
+                   <li>3/6 months Industrial Training with Industrial Visit.</li>
+                   <li> In-campus / In-house Customized training for Colleges / Institutions.</li>
+                   <li> In-Plant / Corporate Customized Training for companies / working professionals</li>
+                   <li> Live projects & Onsite Exposure (Industrial visit)</li>
+                   <li> Fully equipped lab with advance technologies</li>
+                   <li> Mock test and online assessment</li>
+                   <li> Industry Aligned Industrial Training</li>
+                   <li> Personality Development and soft skill session</li>
+                   </ul>
+               </div>
+               
+               </div>
+           
+           </div>
+           
+           </div>
+       </section>
+      
+      <?php
+         include 'include/footer.php';
+         ?> 
+      <div class="go-top"><i class="ri-arrow-up-s-fill"></i><i class="ri-arrow-up-s-fill"></i></div>
+      <script data-cfasync="false" src="js/email-decode.min.js"></script>
+       <script src="js/jquery.min.js"></script>
+       <script src="js/bootstrap.bundle.min.js"></script>
+       <script src="js/meanmenu.min.js"></script>
+       <script src="js/owl.carousel.min.js"></script>
+       <script src="js/swiper-bundle.min.js"></script>
+       <script src="js/appear.min.js"></script>
+       <script src="js/odometer.min.js"></script>
+       <script src="js/wow.min.js"></script>
+       <script src="js/form-validator.min.js"></script>
+       <script src="js/contact-form-script.js"></script>
+       <script src="js/ajaxchimp.min.js"></script>
+       <script src="js/custom.js"></script>
+   </body>
+</html>

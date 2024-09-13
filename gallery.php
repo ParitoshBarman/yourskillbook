@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <title>Gallery :: Yourskill Book</title>
+      <link rel="icon" type="image/png" href="img/fav.png">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="css/flaticon.css">
+      <link rel="stylesheet" href="css/remixicon.css">
+      <link rel="stylesheet" href="css/meanmenu.min.css">
+      <link rel="stylesheet" href="css/odometer.min.css">
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/dark-mode.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/gallery.css">
+      <link rel="stylesheet" href="fontawesome/css/all.css">
+   </head>
+   <body>
+      <?php
+         include 'include/header.php';
+         ?> 
+      <section class="sfnvbdfdf">
+       <div class="row">
+          <h1>Gallery</h1>
+          </div>
+       </section>
+      <section class="fbdfdbdfbdf">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-2">
+                  <p>Latest Updates :-</p>
+               </div>
+               <div class="col-md-10">
+                  <marquee behavior="scroll" direction="left" onmousedown="this.stop()" onmouseup="this.start()">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</marquee>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="dfbljkdfgbdfg">
+       <div class="container">
+           <div class="section-title services-title wow animate__animated animate__fadeInUp delay-0-2s">
+               <span class="top-title">Images</span>
+               <h2>Our Photo Gallery</h2>
+            </div>
+           <div class="w3ls_gallery_grids">
+
+			<div class="row w3_section_1_gallery_grid">
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/1.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/1.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/2.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/2.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/3.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/3.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                 <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/1.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/1.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/2.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/2.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/3.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/3.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                 <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/1.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/1.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/2.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/2.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/3.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/3.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                
+				</div>
+                   
+                   </div>
+           
+           </div>
+       </section>
+      
+      <?php
+         include 'include/footer.php';
+         ?> 
+      <div class="go-top"><i class="ri-arrow-up-s-fill"></i><i class="ri-arrow-up-s-fill"></i></div>
+      <script data-cfasync="false" src="js/email-decode.min.js"></script>
+       <script src="js/jquery.min.js"></script>
+       <script src="js/bootstrap.bundle.min.js"></script>
+       <script src="js/meanmenu.min.js"></script>
+       <script src="js/owl.carousel.min.js"></script>
+       <script src="js/swiper-bundle.min.js"></script>
+       <script src="js/appear.min.js"></script>
+       <script src="js/odometer.min.js"></script>
+       <script src="js/wow.min.js"></script>
+       <script src="js/form-validator.min.js"></script>
+       <script src="js/contact-form-script.js"></script>
+       <script src="js/ajaxchimp.min.js"></script>
+       <script src="js/custom.js"></script>
+       <script src="js/gallery.js"></script>
+       <script>
+
+		$('.w3_section_1_gallery_grid a').simpleLightbox();
+
+	</script>
+   </body>
+</html>

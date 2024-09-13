@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <title>Events :: Yourskill Book</title>
+      <link rel="icon" type="image/png" href="img/fav.png">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="css/flaticon.css">
+      <link rel="stylesheet" href="css/remixicon.css">
+      <link rel="stylesheet" href="css/meanmenu.min.css">
+      <link rel="stylesheet" href="css/odometer.min.css">
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/dark-mode.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/gallery.css">
+      <link rel="stylesheet" href="fontawesome/css/all.css">
+   </head>
+   <body>
+      <?php
+         include 'include/header.php';
+         ?> 
+      <section class="sfnvbdfdf">
+       <div class="row">
+          <h1>Events</h1>
+          </div>
+       </section>
+      <section class="fbdfdbdfbdf">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-2">
+                  <p>Latest Updates :-</p>
+               </div>
+               <div class="col-md-10">
+                  <marquee behavior="scroll" direction="left" onmousedown="this.stop()" onmouseup="this.start()">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</marquee>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="dfbljkdfgbdfg">
+       <div class="container">
+           <div class="section-title services-title wow animate__animated animate__fadeInUp delay-0-2s">
+               <span class="top-title">Events</span>
+               <h2>Our Latest Events</h2>
+            </div>
+           <div class="w3ls_gallery_grids">
+
+			<div class="row w3_section_1_gallery_grid">
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/1.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/1.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/2.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/2.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/3.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/3.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/4.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/4.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/5.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/5.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/6.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/6.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/7.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/7.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/8.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/8.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/9.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/9.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/10.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/10.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/11.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/11.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/12.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/12.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/13.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/13.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/14.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/14.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/15.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/15.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/16.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/16.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/17.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/17.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/18.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/18.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/19.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/19.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/20.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/20.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/21.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/22.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/23.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/24.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/25.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/25.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/26.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/26.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/27.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/27.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/28.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/28.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/29.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/29.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/30.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/30.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/31.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/31.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/32.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/32.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/33.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/33.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/34.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/34.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/35.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/35.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/36.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/36.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/37.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/37.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/38.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/38.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/39.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/39.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/40.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/40.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/41.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/41.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/42.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/42.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/43.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/43.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/44.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/44.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/45.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/45.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/46.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/46.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/47.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/47.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/48.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/48.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/49.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/49.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/50.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/50.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/51.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/51.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/52.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/52.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/53.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/53.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/54.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/54.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/55.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/55.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/56.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/56.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/57.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/57.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/58.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/58.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/60.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/60.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/61.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/61.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/62.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/62.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/63.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/63.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/64.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/64.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/65.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/65.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/66.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/66.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/67.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/67.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/68.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/68.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/69.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/69.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/70.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/70.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/71.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/71.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/72.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/72.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/73.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/73.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/74.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/74.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/event/75.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/event/75.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                
+                
+                
+				</div>
+                   
+                   </div>
+           
+           </div>
+       </section>
+      
+      <?php
+         include 'include/footer.php';
+         ?> 
+      <div class="go-top"><i class="ri-arrow-up-s-fill"></i><i class="ri-arrow-up-s-fill"></i></div>
+      <script data-cfasync="false" src="js/email-decode.min.js"></script>
+       <script src="js/jquery.min.js"></script>
+       <script src="js/bootstrap.bundle.min.js"></script>
+       <script src="js/meanmenu.min.js"></script>
+       <script src="js/owl.carousel.min.js"></script>
+       <script src="js/swiper-bundle.min.js"></script>
+       <script src="js/appear.min.js"></script>
+       <script src="js/odometer.min.js"></script>
+       <script src="js/wow.min.js"></script>
+       <script src="js/form-validator.min.js"></script>
+       <script src="js/contact-form-script.js"></script>
+       <script src="js/ajaxchimp.min.js"></script>
+       <script src="js/custom.js"></script>
+       <script src="js/gallery.js"></script>
+       <script>
+
+		$('.w3_section_1_gallery_grid a').simpleLightbox();
+
+	</script>
+   </body>
+</html>
