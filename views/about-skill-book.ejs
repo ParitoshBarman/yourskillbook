@@ -20,9 +20,7 @@
       <link rel="stylesheet" href="fontawesome/css/all.css">
    </head>
    <body>
-      <?php
-         include 'include/header.php';
-         ?> 
+   <%- include("common/header.ejs") %>
       <section class="sfnvbdfdf">
        <div class="row">
           <h1>About Skill Book</h1>
@@ -85,9 +83,7 @@
            </div>
        </section>
       
-      <?php
-         include 'include/footer.php';
-         ?> 
+       <%- include("common/footer.ejs") %>
       <div class="go-top"><i class="ri-arrow-up-s-fill"></i><i class="ri-arrow-up-s-fill"></i></div>
       <script data-cfasync="false" src="js/email-decode.min.js"></script>
        <script src="js/jquery.min.js"></script>

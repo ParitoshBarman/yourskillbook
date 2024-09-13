@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
    <head>
-      <title>Our Certificate :: Yourskill Book</title>
+      <title>Gallery :: Yourskill Book</title>
       <link rel="icon" type="image/png" href="img/fav.png">
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
@@ -17,15 +17,14 @@
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/dark-mode.css">
       <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/gallery.css">
       <link rel="stylesheet" href="fontawesome/css/all.css">
    </head>
    <body>
-      <?php
-         include 'include/header.php';
-         ?> 
+      <%- include("common/header.ejs") %>
       <section class="sfnvbdfdf">
        <div class="row">
-          <h1>Our Certificate</h1>
+          <h1>Gallery</h1>
           </div>
        </section>
       <section class="fbdfdbdfbdf">
@@ -42,27 +41,85 @@
       </section>
       <section class="dfbljkdfgbdfg">
        <div class="container">
-           <div class="row">
-               <div class="col-md-2"></div>
-              <div class="col-md-8">
-               <div id="carouselExampleFade" class="carousel slide carousel-fade">
-                 <div class="carousel-inner">
-                    <div class="carousel-item active"><img src="img/demo-certificate.jpg" class="d-block w-100" alt="..."></div>
-                    <div class="carousel-item"><img src="img/demo-certificate-2.jpg" class="d-block w-100" alt="..."></div>
-                    
-                 </div>
-                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
-              </div>
-               
-               </div>
-           </div>
+           <div class="section-title services-title wow animate__animated animate__fadeInUp delay-0-2s">
+               <span class="top-title">Images</span>
+               <h2>Our Photo Gallery</h2>
+            </div>
+           <div class="w3ls_gallery_grids">
+
+			<div class="row w3_section_1_gallery_grid">
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/1.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/1.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/2.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/2.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/3.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/3.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                 <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/1.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/1.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/2.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/2.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/3.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/3.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                 <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/1.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/1.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/2.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/2.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                <div class="col-md-4 section_1_gallery_grid">
+					<a href="img/slider/3.png">
+						<div class="section_1_gallery_grid1">
+							<img src="img/slider/3.png"class="img-responsive" />
+						</div>
+					</a>
+				</div>
+                
+				</div>
+                   
+                   </div>
            
            </div>
        </section>
       
-      <?php
-         include 'include/footer.php';
-         ?> 
+       <%- include("common/footer.ejs") %>
       <div class="go-top"><i class="ri-arrow-up-s-fill"></i><i class="ri-arrow-up-s-fill"></i></div>
       <script data-cfasync="false" src="js/email-decode.min.js"></script>
        <script src="js/jquery.min.js"></script>
@@ -77,5 +134,11 @@
        <script src="js/contact-form-script.js"></script>
        <script src="js/ajaxchimp.min.js"></script>
        <script src="js/custom.js"></script>
+       <script src="js/gallery.js"></script>
+       <script>
+
+		$('.w3_section_1_gallery_grid a').simpleLightbox();
+
+	</script>
    </body>
 </html>
