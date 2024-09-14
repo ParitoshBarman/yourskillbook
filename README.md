@@ -14,3 +14,17 @@ YOUR SKILL BOOK
   - footer
 - Connenting to the server
 - Modify header links
+
+## Day 2
+- Modify
+ - header.ejs
+ - index.js
+ - login.ejs
+ - sign-up.ejs
+
+- Create Or Convert
+ - events
+ - job-oriented-training
+ - founder
+ - forgot-password
+ - student-login

@@ -32,6 +32,21 @@ app.get("/login", (req, res)=>{
 app.get("/sign-up", (req, res)=>{
     res.render("sign-up")
 })
+app.get("/events", (req, res)=>{
+    res.render("events")
+})
+app.get("/job-oriented-training", (req, res)=>{
+    res.render("job-oriented-training")
+})
+app.get("/founder", (req, res)=>{
+    res.render("founder")
+})
+app.get("/forgot-password", (req, res)=>{
+    res.render("forgot-password")
+})
+app.get("/student-login", (req, res)=>{
+    res.render("student-login")
+})
 
 
 app.listen(port, ()=>{
