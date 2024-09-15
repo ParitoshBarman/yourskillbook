@@ -47,6 +47,9 @@ app.get("/forgot-password", (req, res)=>{
 app.get("/student-login", (req, res)=>{
     res.render("student-login")
 })
+app.get("/course-details", (req, res)=>{
+    res.render("course-details")
+})
 
 
 app.listen(port, ()=>{
