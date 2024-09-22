@@ -1,0 +1,57 @@
+.coverdiv {
+    background-color: rgba(255, 255, 255, 0.745);
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: widthSlide;
+    animation-duration: 2s;
+    animation-delay: 1s;
+ }
+
+
+
+ /* The animation code */
+@keyframes widthSlide {
+    0%   {width: 0vw;}
+    100% {width: 100vw;}
+  }
+  
+
+
+.leftCrslPart{
+    /* width: 50%; */
+    /* height: 100%; */
+    /* border: 1px solid red; */
+    color: black;
+    padding-left: 90px;
+}
+
+.leftCrslPart > h1{
+    font-size: 138px;
+    text-align: left;
+}
+.leftCrslPart > p{
+    font-size: 28px;
+    text-align: left;
+    color: black;
+    margin-bottom: 50px;
+}
+.leftCrslPart > h2{
+    font-size: 36px;
+    text-align: left;
+}
+.leftCrslPart > a{
+    font-size: 28px;
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid black;
+}
