@@ -51,6 +51,7 @@
     text-align: left;
     animation-name: slideinDtT;
     animation-duration: 3s;
+    margin: 25px 0;
 }
 .leftCrslPart > a{
     font-size: 28px;
