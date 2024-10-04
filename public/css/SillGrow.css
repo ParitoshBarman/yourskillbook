@@ -7002,7 +7002,7 @@ span.title-shape-wrap {
 .about__info-list-item p {
     font-family: var(--tg-heading-font-family);
     color: var(--tg-heading-color);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: var(--tg-fw-semi-bold);
     margin: 0
 }
@@ -7614,11 +7614,13 @@ span.title-shape-wrap {
 
 .courses__item-thumb {
     position: relative;
-    margin: 0 0 20px
+    margin: 0 0 20px;
+    border: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .courses__item-thumb-two {
-    padding: 25px 25px 0
+    padding: 25px 25px 0;
 }
 
 @media(max-width: 1500px) {
@@ -8342,13 +8344,13 @@ span.title-shape-wrap {
     gap: 6px;
     border-radius: 50px;
     border: 1px solid #000;
-    background: var(--tg-theme-secondary);
+    background: #ff0100;
     box-shadow: 4px 4px 0 0 #3d3d3d;
     font-family: var(--tg-heading-font-family);
     font-size: 14px;
     line-height: 18px;
     font-weight: var(--tg-fw-semi-bold);
-    color: var(--tg-heading-color)
+    color: white;
 }
 
 .courses__item-bottom .button a:hover {

@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-    font-family: "Jost", sans-serif;
-}
 
 .coverdiv {
     background-color: rgba(255, 255, 255, 0.581);
@@ -33,30 +29,30 @@
 }
 
 .leftCrslPart > h1{
-    font-size: 138px;
+    font-size: 8vw;
     text-align: left;
     animation-name: slideinLtR;
-    animation-duration: 3s;
+    animation-duration: 4s;
 }
 .leftCrslPart > p{
-    font-size: 28px;
+    font-size: 2vw;
     text-align: left;
     color: black;
-    margin-bottom: 50px;
+    margin-bottom: 2vw;
     animation-name: slideinRtL;
-    animation-duration: 3s;
+    animation-duration: 4s;
 }
 .leftCrslPart > h2{
-    font-size: 36px;
+    font-size: 3vw;
     text-align: left;
     animation-name: slideinDtT;
-    animation-duration: 3s;
-    margin: 25px 0;
+    animation-duration: 4s;
+    margin: 2vw 0;
 }
 .leftCrslPart > a{
-    font-size: 28px;
+    font-size: 30px;
     background-color: red;
-    padding: 10px 15px;
+    padding: 8px 11px;
     border-radius: 20px;
     color: white;
     border: 1px solid black;
@@ -75,15 +71,16 @@
 }
 
 .rocket{
-    width:500px;
+    width:38vw;
     position: absolute;
     bottom: 10%;
     top: 5vw;
     right: 5vw;
     z-index: 2;
     animation-name: rocketGoing;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-timing-function: ease-out;
+    /* animation-delay: 2s; */
 }
 .rocket>img{
     width: 100%;
@@ -149,3 +146,17 @@
   
  
   
+
+@media screen and (max-width:1066px) {
+  .leftCrslPart > a{
+    font-size: 9px;
+  }
+  .leftCrslPart{
+    padding-left: 15px;
+  }
+
+  .leftCrslPart > h2{
+    margin: 0 0;
+  }
+
+}

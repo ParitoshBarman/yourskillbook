@@ -1,0 +1,141 @@
+{
+    "courses": [
+        {
+            "title": "Certificate Course in Data Analytics Using Advanced Excel",
+            "description": "Data analytics is the process of systematically examining data sets to uncover patterns, draw conclusions, and support decision-making. By employing statistical tools and techniques, analysts transform raw data into meaningful insights that can inform strategies, optimize operations, and enhance performance across various fields such as business, healthcare, and finance. The ultimate goal of data analytics is to enable organizations to make data-driven decisions that lead to improved outcomes and competitive advantages.",
+            "what_you_will_learn": [
+                "Learn how to obtain interesting, real-time information from an API with a simple script",
+                "Complete a data cleaning exercise on absenteeism rate",
+                "Learn how to create pie, bar, line, area, histogram, scatter, regression, and combo charts",
+                "Practice with real-world data",
+                "Fill up your resume with in-demand data skills: Python programming, NumPy, pandas, data preparation, data collection, data cleaning, data preprocessing, data visualization; data analysis, data analytics",
+                "Learn beginner and advanced Python",
+                "We will teach you NumPy and pandas, basics and advanced",
+                "Clean data with pandas Series and DataFrames",
+                "Master data visualization",
+                "Engage with coding exercises that will prepare you for the job",
+                "Solve a final capstone project"
+            ],
+            "instructor": "Ashok Sir",
+            "image_link": "url_to_image_1"
+        },
+        {
+            "title": "Certificate Course in Domestic Data Entry Operator",
+            "description": "The Domestic Data Entry Operator course is a short-term vocational training program designed to prepare individuals for the role of a data entry operator in various industries. It focuses on teaching the necessary skills to input, process, and manage data efficiently within a company or organization.",
+            "what_you_will_learn": [
+                "How to Use Microsoft Excel For Data Entry Work",
+                "Autofill & Custom autofill list feature in MS Excel",
+                "How to Become a Data Entry Professional From a Complete Beginner",
+                "Different Types of Data Entry and Review keyboard shortcuts",
+                "How to Use Microsoft Word For Data Entry Job",
+                "Flashfill and table feature in MS Excel",
+                "Pivot Table Feature in Microsoft Excel",
+                "Basic Editing in MS Word",
+                "Learn how to use AI Tools to learn Data Entry Skills",
+                "How to Create a Great Profile on Upwork and Get Started as an Upwork Freelancer",
+                "Integrate OpenAI ChatGPT with Microsoft Excel",
+                "Real world Microsoft Excel related data entry project will be explained with answer"
+            ],
+            "instructor": "Sourav Sir",
+            "image_link": "url_to_image_2"
+        },
+        {
+            "title": "Certificate Course in Graphic Designing",
+            "description": "Graphic designing is the art and practice of creating visual content to communicate messages or ideas. It involves combining elements such as typography, images, colors, and layouts to produce materials like logos, posters, advertisements, websites, and more. Graphic designers use design software and creativity to craft visually appealing and effective designs that capture attention and convey information clearly.",
+            "what_you_will_learn": [
+                "Typography, color theory, photos, layout, and other design theory",
+                "Adobe Photoshop, Illustrator, and InDesign essential tools",
+                "Create logos and branding packages for clients",
+                "Learn photo editing and manipulation in Adobe Photoshop",
+                "Master the pen tool and vector design tools in Adobe Illustrator",
+                "Create editorial spreads and magazine layouts in Adobe InDesign",
+                "Understand type hierarchy, balance, and design layout",
+                "Learn non-destructive editing techniques in Adobe Photoshop",
+                "Logo design brainstorming techniques",
+                "Create YouTube thumbnails and social media graphics",
+                "3D objects and typography in Adobe Illustrator",
+                "Photoshop’s AI-powered generative fill tool"
+            ],
+            "instructor": "Shrikant Sir",
+            "image_link": "url_to_image_3"
+        },
+        {
+            "title": "Certificate Course in Transactional Financial Accounting",
+            "description": "This 120-hour Financial Accounting course provides a comprehensive introduction to essential accounting principles and practices, covering topics from fundamentals to advanced features, including Tally software and GST filing.",
+            "what_you_will_learn": [
+                "Difference between debits and credits",
+                "Understanding bookkeeping records",
+                "Build a balance sheet and income statement",
+                "Analyze financial data",
+                "Cash management and tax implications",
+                "Ethics in Transactional F&A",
+                "Emerging trends and technologies in accounting",
+                "Case studies and real-world applications",
+                "Liquidity, solvency, profitability, and growth ratio calculations",
+                "Vertical and horizontal analysis",
+                "Performance analysis based on annual reports"
+            ],
+            "instructor": "Sourav Sir",
+            "image_link": "url_to_image_4"
+        },
+        {
+            "title": "Certificate Course in Web Designing",
+            "description": "Web design refers to creating and designing a website's visual layout, appearance, and overall user experience. It involves planning and building the elements of a website, including the structure, layout, colors, fonts, graphics, and interactive features, to ensure the site is both aesthetically pleasing and user-friendly.",
+            "what_you_will_learn": [
+                "Understanding Design Principles",
+                "User Interface (UI) Design",
+                "User Experience (UX) Design",
+                "Responsive Design",
+                "Design Tools & Software",
+                "HTML & CSS Basics",
+                "Design Systems",
+                "Graphic Design Skills",
+                "Web Accessibility (WCAG Standards)",
+                "Design Trends & Inspiration",
+                "Collaboration & Communication",
+                "Portfolio Development"
+            ],
+            "instructor": "TBD",
+            "image_link": "url_to_image_5"
+        },
+        {
+            "title": "Certificate Course in Web Development",
+            "description": "Web development is the process of creating, building, and maintaining websites and web applications that are accessible through the internet. It involves both front-end development, which focuses on the parts of the website users see and interact with, and back-end development, which handles server-side operations, databases, and the overall functionality of the website.",
+            "what_you_will_learn": [
+                "Become a full-stack developer",
+                "Comprehensive Coverage of HTML and CSS",
+                "Server Side Development with PHP",
+                "Prepare for Industry Certification Exam",
+                "Earn Certification that is Proof of your Competence",
+                "Client Side Programming with Javascript",
+                "Learn Database Development with MySQL",
+                "Front-End Development",
+                "Back-End Development",
+                "Web Hosting and Deployment",
+                "Web Security",
+                "API Integration",
+                "Development Tools"
+            ],
+            "instructor": "TBD",
+            "image_link": "url_to_image_6"
+        },
+        {
+            "title": "Course on Computer Concepts (CCC)",
+            "description": "The CCC (Course on Computer Concepts) is a basic-level computer course designed to provide fundamental knowledge and skills in computer usage. The course is intended for individuals with little or no experience in computers, and it aims to make them proficient in basic computer operations and applications.",
+            "what_you_will_learn": [
+                "Fundamentals of computers, including hardware and software",
+                "Learning about operating systems (Focus on Windows)",
+                "How to work with files and folders",
+                "Understanding the desktop interface and taskbar",
+                "MS OFFICE Tools",
+                "Using web browsers and navigating the internet",
+                "Search engines and effective searching",
+                "Creating and managing an email account",
+                "Sending, receiving, and organizing emails",
+                "Accessing government services online"
+            ],
+            "instructor": "Shrikant Sir",
+            "image_link": "url_to_image_7"
+        }
+    ]
+}

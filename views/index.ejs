@@ -22,6 +22,7 @@
    <link rel="stylesheet" href="css/SillGrow.css">
    <link rel="stylesheet" href="css/SillGrowMediaQry.css">
    <link rel="stylesheet" href="css/newcrsl/style.css">
+   <link rel="stylesheet" href="css/testtimonial/testimonial.css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    <style>
@@ -46,6 +47,19 @@
          /* border-bottom: 1px solid red; */
          box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
          transition: 1s;
+      }
+
+      .crslchagebtn {
+         background-color: aqua;
+         padding: 17px;
+      }
+
+
+      @media screen and (max-width:1066px) {
+         .crslchagebtn {
+            padding: 0;
+         }
+
       }
    </style>
 </head>
@@ -73,7 +87,7 @@
                   </div>
                   <div class="cloud"><img src="img/newcrsl/cloud png.png" alt=""></div>
                   <div class="rocket"><img src="img/newcrsl/NEW ROCKET.png" alt=""></div>
-                  
+
                </div>
             </div>
             <div class="carousel-item">
@@ -122,12 +136,14 @@
                </div>
             </div>
          </div>
-         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"
+            style="z-index: 10;">
+            <span class="carousel-control-prev-icon crslchagebtn" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
          </a>
-         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"
+            style="z-index: 10;">
+            <span class="carousel-control-next-icon crslchagebtn" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
          </a>
       </div>
@@ -153,7 +169,8 @@
             <div class="section__title-wrap">
                <div class="row justify-content-center">
                   <div class="col-lg-6">
-                     <div class="section__title text-center mb-40"><span class="sub-title">Top Class Courses</span>
+                     <div class="section__title text-center mb-40">
+                        <!-- <span class="sub-title">Top Class Courses</span> -->
                         <h2 class="title">Explore Our World's Best Courses</h2>
                         <p class="desc">Boost your skills with Us</p>
                      </div>
@@ -175,93 +192,98 @@
             <div class="tab-content" id="courseTabContent">
                <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab">
                   <div class="swiper swiper-initialized swiper-horizontal courses-swiper-active swiper-backface-hidden">
-                     <div class="swiper-wrapper">
+                     <div class="swiper-wrapper"
+                        style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); transition-delay: 0ms;">
                         <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
                            style="width: 330px; margin-right: 30px;">
                            <div class="courses__item shine__animate-item">
                               <div class="courses__item-thumb"><a class="shine__animate-link"
                                     href="/course-details"><img alt="img" loading="lazy" width="560" height="380"
-                                       src="https://skillgro.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcourse_thumb01.f63ede38.jpg&amp;w=1200&amp;q=75"></a>
+                                       src="img/CERTIFICATE COURSES/data analytics with adv. excel.png"></a>
                               </div>
                               <div class="courses__item-content">
+                                 <h5 class="title"><a href="/course-details">Certificate Course in Data Analytics Using
+                                       Advanced Excel</a>
+                                 </h5>
                                  <ul class="courses__item-meta list-wrap">
-                                    <li class="courses__item-tag"><a href="/course">Development</a></li>
+                                    <!-- <li class="courses__item-tag"><a href="/course">Development</a></li> -->
+                                    <p class="author"><i class="fa fa-briefcase"></i> <a href="#">Online/Offline</a></p>
                                     <li class="avg-rating"><i class="fas fa-star"></i> <!-- -->(4.8 Reviews)</li>
                                  </ul>
-                                 <h5 class="title"><a href="/course-details">Learning JavaScript With Imagination</a>
-                                 </h5>
-                                 <p class="author">By <a href="#">David Millar</a></p>
                                  <div class="courses__item-bottom">
                                     <div class="button"><a href="/course-details"><span class="text">Enroll Now</span><i
                                              class="flaticon-arrow-right"></i></a></div>
-                                    <h5 class="price">$<!-- -->15<!-- -->.00</h5>
+
                                  </div>
                               </div>
                            </div>
                         </div>
-                        <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1"
-                           style="width: 330px; margin-right: 30px;">
+                        <div class="swiper-slide" data-swiper-slide-index="1" style="width: 330px; margin-right: 30px;">
                            <div class="courses__item shine__animate-item">
                               <div class="courses__item-thumb"><a class="shine__animate-link"
                                     href="/course-details"><img alt="img" loading="lazy" width="560" height="380"
-                                       src="https://skillgro.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcourse_thumb02.8eb129ea.jpg&amp;w=1200&amp;q=75"></a>
+                                       src="img/CERTIFICATE COURSES/Domestic data entry.png"></a>
                               </div>
                               <div class="courses__item-content">
+                                 <h5 class="title"><a href="/course-details">Certificate Course in Domestic Data Entry
+                                       Operator</a>
+                                 </h5>
                                  <ul class="courses__item-meta list-wrap">
-                                    <li class="courses__item-tag"><a href="/course">Design</a></li>
-                                    <li class="avg-rating"><i class="fas fa-star"></i> <!-- -->(4.5 Reviews)</li>
+                                    <!-- <li class="courses__item-tag"><a href="/course">Development</a></li> -->
+                                    <p class="author"><i class="fa fa-briefcase"></i> <a href="#">Online/Offline</a></p>
+                                    <li class="avg-rating"><i class="fas fa-star"></i> <!-- -->(4.8 Reviews)</li>
                                  </ul>
-                                 <h5 class="title"><a href="/course-details">The Complete Graphic Design for
-                                       Beginners</a></h5>
-                                 <p class="author">By <a href="#">David Millar</a></p>
                                  <div class="courses__item-bottom">
                                     <div class="button"><a href="/course-details"><span class="text">Enroll Now</span><i
                                              class="flaticon-arrow-right"></i></a></div>
-                                    <h5 class="price">$<!-- -->19<!-- -->.00</h5>
+
                                  </div>
                               </div>
                            </div>
                         </div>
+
                         <div class="swiper-slide" data-swiper-slide-index="2" style="width: 330px; margin-right: 30px;">
                            <div class="courses__item shine__animate-item">
                               <div class="courses__item-thumb"><a class="shine__animate-link"
                                     href="/course-details"><img alt="img" loading="lazy" width="560" height="380"
-                                       src="https://skillgro.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcourse_thumb03.17267dc4.jpg&amp;w=1200&amp;q=75"></a>
+                                       src="img/CERTIFICATE COURSES/graphic designing.png"></a>
                               </div>
                               <div class="courses__item-content">
-                                 <ul class="courses__item-meta list-wrap">
-                                    <li class="courses__item-tag"><a href="/course">Marketing</a></li>
-                                    <li class="avg-rating"><i class="fas fa-star"></i> <!-- -->(4.3 Reviews)</li>
-                                 </ul>
-                                 <h5 class="title"><a href="/course-details">Learning Digital Marketing on Facebook</a>
+                                 <h5 class="title"><a href="/course-details">Certificate Course in Graphic Designing</a>
                                  </h5>
-                                 <p class="author">By <a href="#">David Millar</a></p>
+                                 <ul class="courses__item-meta list-wrap">
+                                    <!-- <li class="courses__item-tag"><a href="/course">Development</a></li> -->
+                                    <p class="author"><i class="fa fa-briefcase"></i> <a href="#">Online/Offline</a></p>
+                                    <li class="avg-rating"><i class="fas fa-star"></i> <!-- -->(4.8 Reviews)</li>
+                                 </ul>
                                  <div class="courses__item-bottom">
                                     <div class="button"><a href="/course-details"><span class="text">Enroll Now</span><i
                                              class="flaticon-arrow-right"></i></a></div>
-                                    <h5 class="price">$<!-- -->24<!-- -->.00</h5>
+
                                  </div>
                               </div>
                            </div>
                         </div>
+
                         <div class="swiper-slide" data-swiper-slide-index="3" style="width: 330px; margin-right: 30px;">
                            <div class="courses__item shine__animate-item">
                               <div class="courses__item-thumb"><a class="shine__animate-link"
                                     href="/course-details"><img alt="img" loading="lazy" width="560" height="380"
-                                       src="https://skillgro.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcourse_thumb04.71c6eaa9.jpg&amp;w=1200&amp;q=75"></a>
+                                       src="img/CERTIFICATE COURSES/F&A.png"></a>
                               </div>
                               <div class="courses__item-content">
+                                 <h5 class="title"><a href="/course-details">Certificate Course in Transactional
+                                       Financial Accounting</a>
+                                 </h5>
                                  <ul class="courses__item-meta list-wrap">
-                                    <li class="courses__item-tag"><a href="/course">Business</a></li>
+                                    <!-- <li class="courses__item-tag"><a href="/course">Development</a></li> -->
+                                    <p class="author"><i class="fa fa-briefcase"></i> <a href="#">Online/Offline</a></p>
                                     <li class="avg-rating"><i class="fas fa-star"></i> <!-- -->(4.8 Reviews)</li>
                                  </ul>
-                                 <h5 class="title"><a href="/course-details">Financial Analyst Training &amp; Investing
-                                       Course</a></h5>
-                                 <p class="author">By <a href="#">David Millar</a></p>
                                  <div class="courses__item-bottom">
                                     <div class="button"><a href="/course-details"><span class="text">Enroll Now</span><i
                                              class="flaticon-arrow-right"></i></a></div>
-                                    <h5 class="price">$<!-- -->12<!-- -->.00</h5>
+
                                  </div>
                               </div>
                            </div>
@@ -270,72 +292,76 @@
                            <div class="courses__item shine__animate-item">
                               <div class="courses__item-thumb"><a class="shine__animate-link"
                                     href="/course-details"><img alt="img" loading="lazy" width="560" height="380"
-                                       src="https://skillgro.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcourse_thumb05.0750aab4.jpg&amp;w=1200&amp;q=75"></a>
+                                       src="img/CERTIFICATE COURSES/web designing.png"></a>
                               </div>
                               <div class="courses__item-content">
+                                 <h5 class="title"><a href="/course-details">Certificate Course in Web Designing</a>
+                                 </h5>
                                  <ul class="courses__item-meta list-wrap">
-                                    <li class="courses__item-tag"><a href="/course">Data Science</a></li>
-                                    <li class="avg-rating"><i class="fas fa-star"></i> <!-- -->(4.5 Reviews)</li>
+                                    <!-- <li class="courses__item-tag"><a href="/course">Development</a></li> -->
+                                    <p class="author"><i class="fa fa-briefcase"></i> <a href="#">Online/Offline</a></p>
+                                    <li class="avg-rating"><i class="fas fa-star"></i> <!-- -->(4.8 Reviews)</li>
                                  </ul>
-                                 <h5 class="title"><a href="/course-details">Data Analysis &amp; Visualization
-                                       Masterclass</a></h5>
-                                 <p class="author">By <a href="#">David Millar</a></p>
                                  <div class="courses__item-bottom">
                                     <div class="button"><a href="/course-details"><span class="text">Enroll Now</span><i
                                              class="flaticon-arrow-right"></i></a></div>
-                                    <h5 class="price">$<!-- -->27<!-- -->.00</h5>
+
                                  </div>
                               </div>
                            </div>
                         </div>
+
                         <div class="swiper-slide" data-swiper-slide-index="5" style="width: 330px; margin-right: 30px;">
                            <div class="courses__item shine__animate-item">
                               <div class="courses__item-thumb"><a class="shine__animate-link"
                                     href="/course-details"><img alt="img" loading="lazy" width="560" height="380"
-                                       src="https://skillgro.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcourse_thumb06.3d74dfc8.jpg&amp;w=1200&amp;q=75"></a>
+                                       src="img/CERTIFICATE COURSES/web development.png"></a>
                               </div>
                               <div class="courses__item-content">
+                                 <h5 class="title"><a href="/course-details">Certificate Course in Web Development</a>
+                                 </h5>
                                  <ul class="courses__item-meta list-wrap">
-                                    <li class="courses__item-tag"><a href="/course">Mathematic</a></li>
-                                    <li class="avg-rating"><i class="fas fa-star"></i> <!-- -->(4.7 Reviews)</li>
+                                    <!-- <li class="courses__item-tag"><a href="/course">Development</a></li> -->
+                                    <p class="author"><i class="fa fa-briefcase"></i> <a href="#">Online/Offline</a></p>
+                                    <li class="avg-rating"><i class="fas fa-star"></i> <!-- -->(4.8 Reviews)</li>
                                  </ul>
-                                 <h5 class="title"><a href="/course-details">Master the Fundamentals of Math</a></h5>
-                                 <p class="author">By <a href="#">David Millar</a></p>
                                  <div class="courses__item-bottom">
                                     <div class="button"><a href="/course-details"><span class="text">Enroll Now</span><i
                                              class="flaticon-arrow-right"></i></a></div>
-                                    <h5 class="price">$<!-- -->10<!-- -->.00</h5>
+
                                  </div>
                               </div>
                            </div>
                         </div>
+
                         <div class="swiper-slide" data-swiper-slide-index="6" style="width: 330px; margin-right: 30px;">
                            <div class="courses__item shine__animate-item">
                               <div class="courses__item-thumb"><a class="shine__animate-link"
                                     href="/course-details"><img alt="img" loading="lazy" width="560" height="380"
-                                       src="https://skillgro.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcourse_thumb04.71c6eaa9.jpg&amp;w=1200&amp;q=75"></a>
+                                       src="img/CERTIFICATE COURSES/ccc.png"></a>
                               </div>
                               <div class="courses__item-content">
+                                 <h5 class="title"><a href="/course-details">Course on Computer Concepts (CCC)</a>
+                                 </h5>
                                  <ul class="courses__item-meta list-wrap">
-                                    <li class="courses__item-tag"><a href="/course">Business</a></li>
+                                    <!-- <li class="courses__item-tag"><a href="/course">Development</a></li> -->
+                                    <p class="author"><i class="fa fa-briefcase"></i> <a href="#">Online/Offline</a></p>
                                     <li class="avg-rating"><i class="fas fa-star"></i> <!-- -->(4.8 Reviews)</li>
                                  </ul>
-                                 <h5 class="title"><a href="/course-details">Financial Analyst Training &amp; Investing
-                                       Course</a></h5>
-                                 <p class="author">By <a href="#">David Millar</a></p>
                                  <div class="courses__item-bottom">
                                     <div class="button"><a href="/course-details"><span class="text">Enroll Now</span><i
                                              class="flaticon-arrow-right"></i></a></div>
-                                    <h5 class="price">$<!-- -->12<!-- -->.00</h5>
+
                                  </div>
                               </div>
                            </div>
                         </div>
+
                      </div>
                   </div>
                   <div class="courses__nav">
-                     <div class="courses-button-prev"><i class="flaticon-arrow-right"></i></div>
-                     <div class="courses-button-next"><i class="flaticon-arrow-right"></i></div>
+                     <div class="courses-button-prev" id="sliderLeftBtn"><i class="fa fa-chevron-right"></i></div>
+                     <div class="courses-button-next" id="sliderRightBtn"><i class="fa fa-chevron-right"></i></div>
                   </div>
                </div>
                <div class="tab-pane fade " id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab">
@@ -865,304 +891,8 @@
          </div>
       </section>
 
-      
-      <section class="dfbljkdfgbdfg">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-3">
-                  <div class="sdvsfvdfs">
-                     <h3>Our Training Courses</h3>
-
-                  </div>
-                  <div class="frequently-askeds">
-                     <div class="accordion frequently-asked" id="accordionExample">
-                        <div class="accordion-item dnfgnfgnf">
-                           <h3 class="accordion-header" id="headingOne">
-                              <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                 CAD Courses
-                              </button>
-                           </h3>
-                           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                 <ul>
-                                    <li>
-                                       <div class="accordion-item lisbgcolor" style="background-color: #dee2e6;">
-                                          <h3 class="accordion-header" id="headingThree">
-                                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseOne" aria-expanded="true"
-                                                aria-controls="collapseOne">
-                                                <a href="#">Diploma Courses</a>
-                                             </button>
-                                          </h3>
-                                          <div id="collapseOne" class="accordion-collapse collapse show"
-                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                             <div class="accordion-body">
-                                                <ul>
-                                                   <li class="listborder"><a href="#">Diploma Course in Interior
-                                                         Drafting and Design</a></li>
-                                                   <li class="listborder"><a href="#">Diploma Course in Architecture
-                                                         Drafting and Design</a></li>
-                                                   <li class="listborder"><a href="#">Diploma Course in Sheet Metal
-                                                         Design</a></li>
-                                                   <li class="listborder"><a href="#">Diploma Course in Mould Design</a>
-                                                   </li>
-                                                   <li class="listborder"><a href="#"> Diploma Course in Mechanical
-                                                         Drafting and Design/Product Design</a></li>
-                                                </ul>
-                                             </div>
-                                          </div>
-                                       </div>
-
-                                    </li>
-                                    <li>
-                                       <div class="accordion-item lisbgcolor">
-                                          <h3 class="accordion-header" id="headingOne">
-                                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseOne" aria-expanded="true"
-                                                aria-controls="collapseOne">
-                                                <a href="#">Certificate Courses</a>
-                                             </button>
-                                          </h3>
-                                          <div id="collapseOne" class="accordion-collapse collapse show"
-                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                             <div class="accordion-body">
-                                                <ul>
-                                                   <li class="listborder"><a href="#">Certificate Course in Interior
-                                                         Drawing and Design</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Interior
-                                                         Design</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Interior
-                                                         Design</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Architecture
-                                                         Design</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Mechanical
-                                                         Drawing and Design</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Mechanical
-                                                         Design</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Mechanical
-                                                         Design</a></li>
-                                                </ul>
-                                             </div>
-                                          </div>
-                                       </div>
-
-                                    </li>
-                                    <li>
-                                       <div class="accordion-item lisbgcolor">
-                                          <h3 class="accordion-header" id="headingOne">
-                                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseOne" aria-expanded="true"
-                                                aria-controls="collapseOne">
-                                                <a href="#">Software Based Courses</a>
-                                             </button>
-                                          </h3>
-                                          <div id="collapseOne" class="accordion-collapse collapse show"
-                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                             <div class="accordion-body">
-                                                <ul>
-                                                   <li class="listborder"><a href="#">Autocad Designer Civil</a></li>
-                                                   <li class="listborder"><a href="#">Autocad Designer Mechanical</a>
-                                                   </li>
-                                                   <li class="listborder"><a href="#">Draughting and Planning -
-                                                         Civil</a></li>
-                                                   <li class="listborder"><a href="#">Draughting and Planning
-                                                         -Mechanical</a></li>
-                                                   <li class="listborder"><a href="#">Google Sketchup</a></li>
-                                                   <li class="listborder"><a href="#">Mechanical Designer-Autodesk
-                                                         Inventor</a></li>
-                                                   <li class="listborder"><a href="#">Mechanical Designer -
-                                                         Solidworks</a></li>
-                                                   <li class="listborder"><a href="#">Mechanical Designer -
-                                                         Unigraphics</a></li>
-                                                   <li class="listborder"><a href="#">Rendering - lumion</a></li>
-                                                   <li class="listborder"><a href="#">Rendering - Vray</a></li>
-                                                   <li class="listborder"><a href="#"></a>Revit Architecture</li>
-
-                                                </ul>
-                                             </div>
-                                          </div>
-                                       </div>
-
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-
-                        <div class="accordion-item dnfgnfgnf">
-                           <h3 class="accordion-header" id="headingTwo">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                 Computer Courses
-                              </button>
-                           </h3>
-                           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                 <ul>
-                                    <li>
-                                       <div class="accordion-item lisbgcolor">
-                                          <h3 class="accordion-header" id="headingTwo">
-                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                <a href="#">Certificate Courses</a>
-                                             </button>
-                                          </h3>
-                                          <div id="collapseTwo" class="accordion-collapse collapse"
-                                             aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                             <div class="accordion-body">
-                                                <ul>
-                                                   <li class="listborder"><a href="#">Certificate Course in Data
-                                                         Analytics Using Advance Excel</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Domestic
-                                                         Data entry Operator</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Web
-                                                         Development</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Web
-                                                         Designing</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Course on
-                                                         Computer Concepts</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Course on
-                                                         Computer Concepts Plus</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Graphic
-                                                         Designing</a></li>
-                                                   <li class="listborder"><a href="#">Cerificate Course in Digital
-                                                         Marketing</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Transctional
-                                                         F&A</a></li>
-                                                </ul>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </li>
-                                    <li>
-                                       <div class="accordion-item lisbgcolor">
-                                          <h3 class="accordion-header" id="headingTwo">
-                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                <a href="#">Diploma Courses</a>
-                                             </button>
-                                          </h3>
-                                          <div id="collapseTwo" class="accordion-collapse collapse"
-                                             aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                             <div class="accordion-body">
-                                                <ul>
-                                                   <li class="listborder"><a href="#">Diploma in Graphic Design</a></li>
-                                                   <li class="listborder"><a href="#">Diploma in Computer
-                                                         Application</a></li>
-                                                   <li class="listborder"><a href="#">Diploma in Finance and
-                                                         Accounting</a></li>
-                                                   <li class="listborder"><a href="#">Diploma in Full Stack
-                                                         Development</a></li>
-                                                </ul>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </li>
-                                    <li>
-                                       <div class="accordion-item lisbgcolor">
-                                          <h3 class="accordion-header" id="headingTwo">
-                                             <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                <a href="#">Software Based Courses</a>
-                                             </button>
-                                          </h3>
-                                          <div id="collapseTwo" class="accordion-collapse collapse"
-                                             aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                             <div class="accordion-body">
-                                                <ul>
-                                                   <li class="listborder"><a href="#">Certificate Course In Canva</a>
-                                                   </li>
-                                                   <li class="listborder"><a href="#">Certificate Course In
-                                                         Photoshop</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course In
-                                                         Coreldraw</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course In In
-                                                         Design</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in After
-                                                         Effect</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course in Java</a>
-                                                   </li>
-                                                   <li class="listborder"><a href="#">Certificate Course In Python</a>
-                                                   </li>
-                                                   <li class="listborder"><a href="#">Certifcate Course in C
-                                                         Language</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Coures in Tally +
-                                                         GST</a></li>
-                                                   <li class="listborder"><a href="#">Certificate Course In C++
-                                                         language</a></li>
-                                                </ul>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </li>
-
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- <div class="accordion-item dnfgnfgnf">
-                           <h3 class="accordion-header" id="headingThree">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                 data-bs-target="#headingThree" aria-expanded="false" aria-controls="collapseTwo">
-                                 Basic Computer Course
-                              </button>
-                           </h3>
-                           <div id="headingThree" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                              data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                                 <ul>
-                                    <li><a href="#">Typing</a></li>
-                                    <li><a href="#">Data Entry Operator</a></li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div> -->
-
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-9">
-                  <div class="sdvsfvdfs">
-                     <h3>Your Skill Book</h3>
-                     <p>SKILL BOOK SKILL DEVELOPMENT CENTRE specializes in delivering high-quality vocational training
-                        to students, focusing on theoretical and practical aspects. Founded by experienced professionals
-                        Mr. Ashish and Ms. Pooja in 2021, SKILL BOOK has rapidly expanded from online classes during the
-                        Covid-19 pandemic to comprehensive offline programs. We offer a wide range of courses, including
-                        Computer Courses (NIELIT Accredited) and CADD Software Training, Mechanical Design, Civil and
-                        Architecture Design, Interior Design, Electrical/Plumbing Design, and more. Our curriculum is
-                        enriched with real-world projects, workshops, and seminars in collaboration with industry and
-                        educational institutions, ensuring our students are well-prepared for the challenges of today's
-                        technical fields.</p>
-                     <p>With vast experience in training, we are uniquely positioned to understand and meet the precise
-                        skill set requirements of industries. Our training programs are designed to blend theoretical
-                        knowledge with practical, hands-on experience, effectively bridging the gap between industry
-                        demands and academic learning.</p>
-                     <p>At SKILL BOOK SKILL DEVELOPMENT CENTRE, we are committed to ensuring that our industrial
-                        training translates into meaningful career opportunities for our students. We aim to provide
-                        skilled manpower that meets industry standards. Through strategic partnerships with leading
-                        companies, we facilitate placements in roles such as project design, computer application, and
-                        design operations across various sectors.</p>
-                     <p>We uphold the highest standards of quality and compliance, aligning with NSDC standards to
-                        empower individuals with the skills necessary for success in engineering and technology.</p>
-                     <p>Join us at SKILL BOOK SKILL DEVELOPMENT CENTRE and take the first step towards a rewarding
-                        career in the dynamic world of technical innovation and industry excellence.</p>
-                  </div>
-
-               </div>
-
-            </div>
-
-         </div>
-      </section>
 
 
-      
 
       <div class="urgent-area ptb-100">
          <div class="container">
@@ -1240,47 +970,60 @@
             </div>
          </div>
       </div>
-      <section class="tesjhaas">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <div id="carouselExampleControls" class="carousel slide dnfgnfghnghg" data-bs-ride="carousel">
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <img src="img/testimonial/1.jpg" width="100%">
-                        </div>
-                        <div class="carousel-item">
-                           <img src="img/testimonial/2.jpg" width="100%">
-                        </div>
-                        <div class="carousel-item">
-                           <img src="img/testimonial/3.jpg" width="100%">
-                        </div>
-                        <div class="carousel-item">
-                           <img src="img/testimonial/4.jpg" width="100%">
-                        </div>
-                        <div class="carousel-item">
-                           <img src="img/testimonial/5.jpg" width="100%">
-                        </div>
 
-                     </div>
-                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                     </button>
-                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                     </button>
-                  </div>
-               </div>
-
+      <section class="testtimonialSec">
+         <h4>TESTINOMIAL</h4>
+         <div class="testtimonial">
+            <div class="leftDiv">
+               <h3>What Are Students Says</h3>
             </div>
-
+            <div class="rightDiv">
+               <video autoplay muted loop>
+                  <source src="videos/demo web.mp4" type="video/mp4">
+                </video>
+            </div>
          </div>
-
+         <div class="feedback">
+            <div class="feedbackCards">
+               <div class="leftFeedBack">
+                  <img src="img\testimonial\shrishti.png" alt="">
+               </div>
+               <div class="rightFeedBack">
+                  <h3>Srishti Rana</h3>
+                  <h4>Spoken English</h4>
+                  <div class="redLine"></div>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <p>"I enrolled in Skill Book Skill Development Centre for their English spoken classes, and I could be happier with my decision. The classes are not only affordable but also incredibly effective. The staff is very supportive and knowledgeable, always ready to help and guide. Thanks to Skill Book, I feel more confident in my English communication skills. Highly recommend their services! Thank you, Skill Book, for your excellent work."</p>
+               </div>
+            </div>
+            <div class="feedbackCards">
+               <div class="leftFeedBack">
+                  <img src="img\testimonial\gourav.png" alt="">
+               </div>
+               <div class="rightFeedBack">
+                  <h3>Gourav</h3>
+                  <h4>Mechinical Design</h4>
+                  <div class="redLine"></div>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <p>"Being from a mechanical background, my experience at Skill Book Skill Development Centre was phenomenal. I learned fundamental engineering drawing techniques and mastered AutoCAD 2D+3D and Solid works. The interview preparation sessions were incredibly helpful in securing my dream job. Thank you, Skill Book!"</p>
+               </div>
+            </div>
+            <div class="feedbackCards">
+               <div class="leftFeedBack">
+                  <img src="img\testimonial\namita.png" alt="">
+               </div>
+               <div class="rightFeedBack">
+                  <h3>Namita</h3>
+                  <h4>Graphic Designing</h4>
+                  <div class="redLine"></div>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <p>I thoroughly enjoyed the Introduction to Graphic Design course. It was a fantastic introduction to the field and equipped me with both technical skills and creative confidence. I would highly recommend this course to anyone interested in pursuing a career in graphic design.</p>
+               </div>
+            </div>
+         </div>
       </section>
+
+
       <div class="knock-us-area bg-color-0057b8 ptb-100">
          <div class="container">
             <div class="row align-items-center">
@@ -1298,6 +1041,8 @@
 
       <%- include("common/footer.ejs") %>
          <div class="go-top"><i class="ri-arrow-up-s-fill"></i><i class="ri-arrow-up-s-fill"></i></div>
+
+
          <script data-cfasync="false" src="js/email-decode.min.js"></script>
          <script src="js/jquery.min.js"></script>
          <script src="js/bootstrap.bundle.min.js"></script>
@@ -1311,6 +1056,7 @@
          <script src="js/contact-form-script.js"></script>
          <script src="js/ajaxchimp.min.js"></script>
          <script src="js/custom.js"></script>
+         <script src="js/navChange.js"></script>
          <script>
             var myModal = new bootstrap.Modal(document.getElementById("exampleModal"));
             myModal.show();

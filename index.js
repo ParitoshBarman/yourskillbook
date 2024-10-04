@@ -1,16 +1,36 @@
 const express = require("express")
 const path = require("path");
+const fs = require("fs");
 
 
 const port = 8080;
 const staticPath = path.join(__dirname, "public")
 
 
+
+let jsonFilePath = path.join(__dirname, 'course.json');
+fs.readFile(jsonFilePath, 'utf-8', (err, data) => {
+    if (err) {
+    //   return res.status(500).send('Error reading JSON file');
+    console.log('Error reading JSON file')
+    }
+
+    // Parse the JSON data
+    const courses = JSON.parse(data);
+
+    // Send the parsed data as a response
+    // res.json(courses);
+    console.log(courses)
+  });
+
+  
+
 const app = express()
 
 app.set("view engine", "ejs");
 
 app.use(express.static(staticPath));
+
 
 
 app.get("/", (req, res)=>{
