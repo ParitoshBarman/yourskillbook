@@ -35,10 +35,10 @@
     animation-duration: 4s;
 }
 .leftCrslPart > p{
-    font-size: 2vw;
+    font-size: 1vw;
     text-align: left;
     color: black;
-    margin-bottom: 2vw;
+    /* margin: -5px; */
     animation-name: slideinRtL;
     animation-duration: 4s;
 }

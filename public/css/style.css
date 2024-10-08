@@ -5868,9 +5868,9 @@ textarea.form-control {
 	top: 87%;
 	background-color: #d21825;
 	z-index: 4;
-	width: 40px;
+	width: 73px;
 	text-align: center;
-	height: 42px;
+	height: 73px;
 	line-height: 42px;
 	transform: scale(0);
 	visibility: hidden;
@@ -5886,7 +5886,7 @@ textarea.form-control {
 	margin: 0 auto;
 	color: #fff;
 	transition: .5s;
-	font-size: 20px
+	font-size: 73px
 }
 
 .go-top i:last-child {
@@ -5956,9 +5956,11 @@ textarea.form-control {
 	transform: translateY(0);
 	opacity: 1;
 	visibility: visible;
-	right: 3%;
+	right: 9%;
 	top: 84%;
-	transform: scale(1)
+	transform: scale(1);
+	border-radius: 50%;
+
 }
 
 .video-btn {
@@ -6395,15 +6397,15 @@ textarea.form-control {
 
 .whatsapp-bttnsvf {
     position: fixed;
-    bottom: 60px;
-    left: 12px;
+    bottom: 103px;
+    right: 10px;
     z-index: 9999999999999999;
     width: 80px;
 }
 .call-bttnsvf {
     position: fixed;
-    bottom: 150px;
-    left: 20px;
+    bottom: 190px;
+    right: 20px;
     z-index: 9999999999999999;
     width: 60px;
 }

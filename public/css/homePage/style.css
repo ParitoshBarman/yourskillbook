@@ -1,0 +1,8 @@
+.team-box:hover .content-box{
+    background-color: #0071dc;
+    transition: all 0.4s cubic-bezier(0.3, 0.02, 0, 0.6);
+}
+
+.figure-box>iframe{
+    border-radius: 8px;
+}
