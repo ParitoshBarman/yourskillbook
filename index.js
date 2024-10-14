@@ -8,20 +8,20 @@ const staticPath = path.join(__dirname, "public")
 
 
 
-let jsonFilePath = path.join(__dirname, 'course.json');
-fs.readFile(jsonFilePath, 'utf-8', (err, data) => {
-    if (err) {
-    //   return res.status(500).send('Error reading JSON file');
-    console.log('Error reading JSON file')
-    }
+// let jsonFilePath = path.join(__dirname, 'course.json');
+// fs.readFile(jsonFilePath, 'utf-8', (err, data) => {
+//     if (err) {
+//     //   return res.status(500).send('Error reading JSON file');
+//     console.log('Error reading JSON file')
+//     }
 
-    // Parse the JSON data
-    const courses = JSON.parse(data);
+//     // Parse the JSON data
+//     const courses = JSON.parse(data);
 
-    // Send the parsed data as a response
-    // res.json(courses);
-    console.log(courses)
-  });
+//     // Send the parsed data as a response
+//     // res.json(courses);
+//     console.log(courses)
+//   });
 
   
 
@@ -69,6 +69,9 @@ app.get("/student-login", (req, res)=>{
 })
 app.get("/course-details", (req, res)=>{
     res.render("course-details")
+})
+app.get("/ourvideos", (req, res)=>{
+    res.render("ourvideos")
 })
 
 

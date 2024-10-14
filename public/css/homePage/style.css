@@ -1,8 +1,120 @@
-.team-box:hover .content-box{
+.team-box:hover .content-box {
     background-color: #0071dc;
     transition: all 0.4s cubic-bezier(0.3, 0.02, 0, 0.6);
 }
 
-.figure-box>iframe{
+.figure-box>iframe {
     border-radius: 8px;
+}
+
+
+
+
+/* studentspeaks */
+
+#studentspeaks {
+    margin-top: -343px;
+    box-shadow: 0 0 3px #00000029 !important;
+    background-color: rgb(248 248 248);
+    /* background-color: red; */
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#studentspeaks>div {
+    width: 40%;
+}
+
+#studentspeaks>.studentspeaksLeftCh {
+    /* background-color: green; */
+    padding: 5%;
+}
+
+#studentspeaks>.studentspeaksLeftCh>h3 {
+    color: rgb(237 28 36);
+}
+
+#studentspeaks>.studentspeaksLeftCh>p {
+    /* color: rgb(237 28 36); */
+    margin-top: 19px;
+    line-height: 24px;
+
+}
+
+#studentspeaks>.studentspeaksRightCh {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#studentspeaks>.studentspeaksRightCh>div {
+    /* border: 1px solid red; */
+    width: 43%;
+    padding: 10px;
+}
+
+#studentspeaks>.studentspeaksRightCh>.imagesDiv>img {
+    width: 38%;
+    border: 5px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#studentspeaks>.studentspeaksRightCh>.imagesDiv>img:first-child {
+    position: relative;
+    left: 20%;
+}
+
+#studentspeaks>.studentspeaksRightCh>.imagesDiv>img:last-child {
+    position: relative;
+    left: 0;
+    bottom: 20px;
+    z-index: 10;
+}
+
+#studentspeaks>.studentspeaksRightCh>.watchText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#studentspeaks>.studentspeaksRightCh>.watchText h4 {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* ContactSec */
+
+.contactSec>.formandmap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contactSec>.formandmap>div{
+    width: 49%;
+    /* border: 1px solid blue; */
+    height: 100%;
+    /* padding: 100px 0; */
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactSec>.formandmap>.cntbox1 {
+    background-color: white;
+}
+
+/* .contactSec>.formandmap>.cntbox2 {
+    background-color: gray;
+} */
+.contactSec>.extraAddress{
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 500px;
 }

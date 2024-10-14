@@ -12,9 +12,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    animation-name: widthSlide;
+    /* animation-name: widthSlide;
     animation-duration: 2s;
-    animation-delay: 1s;
+    animation-delay: 1s; */
  }
 
 
@@ -24,7 +24,7 @@
     /* height: 100%; */
     /* border: 1px solid red; */
     color: black;
-    padding-left: 90px;
+    padding-left: 130px;
     z-index: 1;
 }
 

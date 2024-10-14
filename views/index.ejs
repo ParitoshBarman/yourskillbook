@@ -27,6 +27,7 @@
    <link rel="stylesheet" href="css/homePage/style.css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <style>
       .accordion-header>button>a {
          color: #000;
@@ -65,21 +66,34 @@
       }
 
       @media (min-width: 1200px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl {
-        max-width: 1360px;
-    }
-}
+
+         .container,
+         .container-lg,
+         .container-md,
+         .container-sm,
+         .container-xl {
+            max-width: 1360px;
+         }
+      }
 
 
-.coursulExtraNeed{
-   margin-left: 3vw;
-   /* border: 2px solid red;
+      .coursulExtraNeed {
+         margin-left: 3vw;
+         /* border: 2px solid red;
    border-radius: 5px; */
-   padding: 0 7px;
-   font-size: 29px;
-}
-      
+         padding: 0 7px;
+         font-size: 29px;
+      }
+
+      .moreButtons>a{
+         color: red;
+      }
+      .moreButtons:hover a{
+         color: white;
+         background-color: red;
+      }
    </style>
+
 </head>
 
 <body>
@@ -90,6 +104,7 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
          </ol>
          <div class="carousel-inner">
             <div class="carousel-item active">
@@ -111,17 +126,33 @@
             <div class="carousel-item">
                <div>
                   <img class="d-block w-100" src="img/newcrsl/SLIDER_1_PIC.jpg" alt="Second slide">
-                  <div class="coverdiv">
+                  <div class="coverdiv" style="background-color: transparent;">
                      <div class="leftCrslPart">
-                        <p class="coursulExtraNeed" style="font-size: 25px;font-weight: bold;color: white;margin: 5px 0;">Diploma Course in Graphic Design</p>
-                        <p class="coursulExtraNeed" style="font-size: 25px;font-weight: bold;color: white;margin: 5px 0;">Diploma Course in Computer Application</p>
-                        <p class="coursulExtraNeed" style="font-size: 25px;font-weight: bold;color: white;margin: 5px 0;">Diploma Course in Finance and Accounting</p>
-                        <p class="coursulExtraNeed" style="font-size: 25px;font-weight: bold;color: white;margin: 5px 0;">Diploma Course in Full Stack Development</p>
-                        <p class="coursulExtraNeed" style="font-size: 25px;font-weight: bold;color: white;margin: 5px 0;">Certificate Course in Data Analytics Using Adv. Excel</p>
-                        <p class="coursulExtraNeed" style="font-size: 25px;font-weight: bold;color: white;margin: 5px 0;">Certificate Course in Web Designing and Development</p>
-                        <p class="coursulExtraNeed" style="font-size: 25px;font-weight: bold;color: white;margin: 5px 0;">Certificate Course in Course On Computer Concepts (Nielit)</p>
-                        <p class="coursulExtraNeed" style="font-size: 25px;font-weight: bold;color: white;margin: 5px 0;">Certificate Course in Digital Marketing</p>
-                        <a href="#">Enroll now</a>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: white;margin: 0px 0;">Course in Course On
+                           Computer Concepts (Nielit)</p>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: white;margin: 0px 0;">Course in Data
+                           Analytics Using Adv. Excel</p>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: white;margin: 0px 0;">Course in Web Designing
+                           and Development</p>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: white;margin: 0px 0;">Course in Finance and
+                           Accounting</p>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: white;margin: 0px 0;">Course in Full Stack
+                           Development</p>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: white;margin: 0px 0;">Course in Computer
+                           Application</p>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: white;margin: 0px 0;">Course in Digital
+                           Marketing</p>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: white;margin: 0px 0 20px 0;">Course in
+                           Graphic Design</p>
+                        <a href="#" style="border: 2px solid white;margin-left: 30%;">Enroll now</a>
                      </div>
                   </div>
                   <!-- <div class="cloud"><img src="img/newcrsl/cloud png.png" alt=""></div>
@@ -131,16 +162,30 @@
             <div class="carousel-item">
                <div>
                   <img class="d-block w-100" src="img/newcrsl/SLIDER_2_PIC.jpg" alt="Third slide">
-                  <div class="coverdiv">
+                  <div class="coverdiv" style="background-color: transparent;">
                      <div class="leftCrslPart">
-                        <p class="coursulExtraNeed">Course in Interior Drafting and Design</p>
-                        <p class="coursulExtraNeed">Course in Die and Mould Design</p>
-                        <p class="coursulExtraNeed">Course in Architechure Drafting and Design</p>
-                        <p class="coursulExtraNeed">Course in Mechanical Drafting and Design</p>
-                        <p class="coursulExtraNeed">Course in Interior Design</p>
-                        <p class="coursulExtraNeed">Course in Mechanical Design</p>
-                        <p class="coursulExtraNeed">Course in Architecture Design</p>
-                        <a href="#">Enroll now</a>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: black;margin: 0px 0;">Course in Architechure
+                           Drafting and Design</p>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: black;margin: 0px 0;">Course in Mechanical
+                           Drafting and Design</p>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: black;margin: 0px 0;">Course in Interior
+                           Drafting and Design</p>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: black;margin: 0px 0;">Course in Die and Mould
+                           Design</p>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: black;margin: 0px 0;">Course in Architecture
+                           Design</p>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: black;margin: 0px 0;">Course in Mechanical
+                           Design</p>
+                        <p class="coursulExtraNeed"
+                           style="font-size: 25px;font-weight: bold;color: black;margin: 0px 0 20px 0;">Course in
+                           Interior Design</p>
+                        <a href="#" style="border: 2px solid white;margin-left: 30%;">Enroll now</a>
                      </div>
                   </div>
                   <!-- <div class="cloud"><img src="img/newcrsl/cloud png.png" alt=""></div> -->
@@ -149,11 +194,13 @@
             </div>
             <div class="carousel-item">
                <div>
-                  <img class="d-block w-100" src="img/newcrsl/SLIDER_3_PIC.jpg" alt="Third slide">
-                  <div class="coverdiv">
+                  <img class="d-block w-100" src="img/newcrsl/d2dslider.jpeg" alt="Third slide">
+                  <div class="coverdiv" style="background-color: transparent;">
                      <div class="leftCrslPart">
-                        <h2>INDUSTRIAL TRAINING FOR FRESHERS</h2>
-                        <h2>AND WORKING PROFESSIONALS</h2>
+                        <!-- <h2>INDUSTRIAL TRAINING FOR FRESHERS</h2>
+                        <h2>AND WORKING PROFESSIONALS</h2> -->
+                        <h2></h2>
+                        <h2></h2>
                         <!-- <p>Build Skills, Boost Career….!</p> -->
                         <a href="#">Enroll now</a>
                      </div>
@@ -163,7 +210,7 @@
                </div>
             </div>
          </div>
-         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"
+         <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"
             style="z-index: 10;">
             <span class="carousel-control-prev-icon crslchagebtn" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -172,7 +219,7 @@
             style="z-index: 10;">
             <span class="carousel-control-next-icon crslchagebtn" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
-         </a>
+         </a> -->
       </div>
 
       <section class="fbdfdbdfbdf">
@@ -199,7 +246,7 @@
                      <div class="section__title text-center mb-40">
                         <!-- <span class="sub-title">Top Class Courses</span> -->
                         <h2 class="title">Explore Our World's Best Courses</h2>
-                        <p class="desc">Boost your skills with Us</p>
+                        <!-- <p class="desc">Boost your skills with Us</p> -->
                      </div>
                      <div class="courses__nav">
                         <ul class="nav nav-tabs" id="courseTab" role="tablist">
@@ -1255,13 +1302,19 @@
                                        <!-- <img loading="lazy" decoding="async" width="570" height="630"
                                           src="https://www.radiustheme.com/demo/wordpress/themes/edhub/wp-content/uploads/2021/10/team14.jpg"
                                           class="attachment-full size-full wp-post-image" alt=""> -->
-                                       <iframe width="560" height="620"
+                                       <!-- <iframe width="560" height="620"
                                           src="https://www.youtube.com/embed/c40YRirdWNk?si=k08DFSqDBtZ3tzev"
                                           title="YouTube video player" frameborder="0"
                                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+                                       <video controls="controls" width="535" id="video" style="border-radius: 8px;">
+                                          <source
+                                             src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/sector 22 -2 .mp4">
+
+                                       </video>
                                     </div>
-                                    
+
                                  </div>
                               </div>
                               <div class="col-lg-6 col-sm-6 col-md-12 instructor_column">
@@ -1275,9 +1328,15 @@
                                              <!-- <img loading="lazy" decoding="async" width="570" height="630"
                                                 src="https://www.radiustheme.com/demo/wordpress/themes/edhub/wp-content/uploads/2021/10/team13.jpg"
                                                 class="attachment-full size-full wp-post-image" alt=""> -->
-                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/ir5W9NpPwNE?si=uF6MmGyBreE7KR1p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                             <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                   src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                             </video>
                                           </div>
-                                          
+
                                        </div>
                                     </div>
                                     <div
@@ -1289,9 +1348,20 @@
                                              <!-- <img loading="lazy" decoding="async" width="570" height="630"
                                                 src="https://www.radiustheme.com/demo/wordpress/themes/edhub/wp-content/uploads/2021/10/team12.jpg"
                                                 class="attachment-full size-full wp-post-image" alt=""> -->
-                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/phfkbW27w6w?si=mmNwhaN7h4Y2VDu-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                             <!-- <iframe width="560" height="315"
+                                                src="https://www.youtube.com/embed/phfkbW27w6w?si=mmNwhaN7h4Y2VDu-"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                referrerpolicy="strict-origin-when-cross-origin"
+                                                allowfullscreen></iframe> -->
+                                             <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                   src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/sec 6.mp4">
+
+                                             </video>
                                           </div>
-                                          
+
                                        </div>
                                     </div>
                                     <div
@@ -1300,12 +1370,18 @@
                                        style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
                                        <div class="team-box style-2">
                                           <div class="figure-box">
-                                             <img loading="lazy" decoding="async" width="570" height="630"
+                                             <!-- <img loading="lazy" decoding="async" width="570" height="630"
                                                 src="https://www.radiustheme.com/demo/wordpress/themes/edhub/wp-content/uploads/2021/10/team11.jpg"
-                                                class="attachment-full size-full wp-post-image" alt="">
-                                                
+                                                class="attachment-full size-full wp-post-image" alt=""> -->
+                                             <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                   src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/kasturba.mp4">
+
+                                             </video>
+
                                           </div>
-                                          
+
                                        </div>
                                     </div>
                                     <div
@@ -1314,11 +1390,14 @@
                                        style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
                                        <div class="team-box style-2">
                                           <div class="figure-box">
-                                             <img loading="lazy" decoding="async" width="545" height="575"
-                                                src="https://www.radiustheme.com/demo/wordpress/themes/edhub/wp-content/uploads/2021/10/team10.jpg"
-                                                class="attachment-full size-full wp-post-image" alt="">
+                                             <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                   src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/pcb claases.mp4">
+
+                                             </video>
                                           </div>
-                                          
+
                                        </div>
                                     </div>
                                  </div>
@@ -1331,13 +1410,17 @@
                </div>
             </div>
          </div>
+         <div class="moreButtons" style="text-align: right;margin: auto;margin: 0px auto 30px auto;max-width: 1120px;">
+            <a href="/ourvideos"
+               style="padding: 15px 25px; border-radius: 35px;font-size: 23px;cursor: pointer;">Watch More <i class="fa fa-long-arrow-right"></i></a>
+         </div>
       </section>
 
 
 
       <section
-         class="elementor-section elementor-top-section elementor-element elementor-element-79b1fa1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" style="background-image: url(img/courses_bg.jpg);"
-         data-id="79b1fa1" data-element_type="section">
+         class="elementor-section elementor-top-section elementor-element elementor-element-79b1fa1 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+         style="background-image: url(img/courses_bg.jpg);" data-id="79b1fa1" data-element_type="section">
          <div class="elementor-container elementor-column-gap-default">
             <div
                class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-46acae7"
@@ -1374,9 +1457,10 @@
                                        <a href="https://www.radiustheme.com/demo/wordpress/themes/edhub/creating-students-who-solve-problems/"
                                           class="category-name">Course Launched </a>
                                        <h3 class="title">
-                                          <a href="#">Skill Book Skill Development Centre Launched CUSTOMER CARE EXECUTIVE Course.</a>
+                                          <a href="#">Skill Book Skill Development Centre Launched CUSTOMER CARE
+                                             EXECUTIVE Course.</a>
                                        </h3>
-                                       
+
                                     </div>
                                  </div>
                               </div>
@@ -1396,9 +1480,11 @@
                                           class="category-name">Patriotic Event </a>
                                        <h3 class="title">
                                           <a
-                                             href="https://www.radiustheme.com/demo/wordpress/themes/edhub/taking-action-to-help-kids-like-moonee-art/">MLA Shri Mohinder Goyal ji द्वारा दिप प्रवज्जलित कर किया गया स्वतंता दिवस कार्यक्रम की शुरुआत!</a>
+                                             href="https://www.radiustheme.com/demo/wordpress/themes/edhub/taking-action-to-help-kids-like-moonee-art/">MLA
+                                             Shri Mohinder Goyal ji द्वारा दिप प्रवज्जलित कर किया गया स्वतंता दिवस
+                                             कार्यक्रम की शुरुआत!</a>
                                        </h3>
-                                       
+
                                     </div>
                                  </div>
                               </div>
@@ -1424,7 +1510,7 @@
                                              href="https://www.radiustheme.com/demo/wordpress/themes/edhub/news-rankings-cap-a-strong-year-in-academic-recognition/">Skillbook
                                              Skill Development Centre to Host Diwali Celebration</a>
                                        </h3>
-                                       
+
                                     </div>
                                  </div>
                               </div>
@@ -1446,9 +1532,11 @@
                                           class="category-name">Course Launched </a>
                                        <h3 class="title">
                                           <a
-                                             href="https://www.radiustheme.com/demo/wordpress/themes/edhub/professor-tom-comments-voluntary-recalls-by-snack-brands/">Domestic Data Entry Operator Course Launched by Skill Book Skill Development Centre.</a>
+                                             href="https://www.radiustheme.com/demo/wordpress/themes/edhub/professor-tom-comments-voluntary-recalls-by-snack-brands/">Domestic
+                                             Data Entry Operator Course Launched by Skill Book Skill Development
+                                             Centre.</a>
                                        </h3>
-                                       
+
                                     </div>
                                  </div>
                               </div>
@@ -1468,9 +1556,11 @@
                                           class="category-name">Seminar </a>
                                        <h3 class="title">
                                           <a
-                                             href="https://www.radiustheme.com/demo/wordpress/themes/edhub/a-global-mba-for-generation-of-business-leaders/">Certificate Distribution to ITI Narela Students for Attending the Graphic Designing Workshop at Skill Book.</a>
+                                             href="https://www.radiustheme.com/demo/wordpress/themes/edhub/a-global-mba-for-generation-of-business-leaders/">Certificate
+                                             Distribution to ITI Narela Students for Attending the Graphic Designing
+                                             Workshop at Skill Book.</a>
                                        </h3>
-                                       
+
                                     </div>
                                  </div>
                               </div>
@@ -1480,6 +1570,10 @@
                   </div>
                </div>
             </div>
+         </div>
+         <div class="moreButtons" style="text-align: right;margin: auto;margin: 0px auto 30px auto;max-width: 1120px;">
+            <a href="#"
+               style="padding: 15px 25px; border-radius: 35px;font-size: 23px;">Read More <i class="fa fa-long-arrow-right"></i></a>
          </div>
       </section>
 
@@ -1492,7 +1586,10 @@
          <!-- Heading Style 1 End -->
          <div class="testtimonial">
             <div class="leftDiv">
-               <h3><a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LEozz83LNYw3YLRSNagwtjRIMTC0MLVITUk2szRPsTKoMElOTLVIMki0NLBMsTBOSfRSLs7OzMlRSMrPz1aAMFNSy1Jz8gtyU_NKFJKBRGoRANLJHTQ&q=skill+book+skill+development+center&rlz=1C1UEAD_enIN1113IN1113&oq=skill+book&gs_lcrp=EgZjaHJvbWUqDQgBEC4YrwEYxwEYgAQyDggAEEUYJxg7GIAEGIoFMg0IARAuGK8BGMcBGIAEMg0IAhAuGK8BGMcBGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEINjY2M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x390d01858edc697d:0x4cae8b0a909d83da,1,,,,"><img src="img/event photo/pngfind.com-google-review-logo-png-3064980.png" alt="" style="width: 40%;"></a></h3>
+               <h3><a
+                     href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LEozz83LNYw3YLRSNagwtjRIMTC0MLVITUk2szRPsTKoMElOTLVIMki0NLBMsTBOSfRSLs7OzMlRSMrPz1aAMFNSy1Jz8gtyU_NKFJKBRGoRANLJHTQ&q=skill+book+skill+development+center&rlz=1C1UEAD_enIN1113IN1113&oq=skill+book&gs_lcrp=EgZjaHJvbWUqDQgBEC4YrwEYxwEYgAQyDggAEEUYJxg7GIAEGIoFMg0IARAuGK8BGMcBGIAEMg0IAhAuGK8BGMcBGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEINjY2M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x390d01858edc697d:0x4cae8b0a909d83da,1,,,,"><img
+                        src="img/event photo/pngfind.com-google-review-logo-png-3064980.png" alt=""
+                        style="width: 40%;"></a></h3>
             </div>
             <div class="rightDiv">
                <video autoplay muted loop>
@@ -1500,88 +1597,171 @@
                </video>
             </div>
          </div>
-         <div class="feedback">
-            <div class="feedbackCards">
-               <div class="leftFeedBack">
-                  <img src="img\testimonial\shrishti.png" alt="">
+         <div class="feedbackParent">
+            <div class="feedback">
+               <div class="feedbackCards">
+                  <div class="leftFeedBack">
+                     <img src="img\testimonial\shrishti.png" alt="">
+                  </div>
+                  <div class="rightFeedBack">
+                     <h3>Srishti Rana</h3>
+                     <h4>Spoken English</h4>
+                     <div class="redLine"></div>
+                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                     <p>"I enrolled in Skill Book Skill Development Centre for their English spoken classes, and I could
+                        be
+                        happier with my decision. The classes are not only affordable but also incredibly effective. The
+                        staff is very supportive and knowledgeable, always ready to help and guide. Thanks to Skill
+                        Book, I
+                        feel more confident in my English communication skills. Highly recommend their services! Thank
+                        you,
+                        Skill Book, for your excellent work."</p>
+                  </div>
                </div>
-               <div class="rightFeedBack">
-                  <h3>Srishti Rana</h3>
-                  <h4>Spoken English</h4>
-                  <div class="redLine"></div>
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                     class="fas fa-star"></i><i class="fas fa-star"></i>
-                  <p>"I enrolled in Skill Book Skill Development Centre for their English spoken classes, and I could be
-                     happier with my decision. The classes are not only affordable but also incredibly effective. The
-                     staff is very supportive and knowledgeable, always ready to help and guide. Thanks to Skill Book, I
-                     feel more confident in my English communication skills. Highly recommend their services! Thank you,
-                     Skill Book, for your excellent work."</p>
+               <div class="feedbackCards">
+                  <div class="leftFeedBack">
+                     <img src="img\testimonial\gourav.png" alt="">
+                  </div>
+                  <div class="rightFeedBack">
+                     <h3>Gourav</h3>
+                     <h4>Mechinical Design</h4>
+                     <div class="redLine"></div>
+                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                     <p>"Being from a mechanical background, my experience at Skill Book Skill Development Centre was
+                        phenomenal. I learned fundamental engineering drawing techniques and mastered AutoCAD 2D+3D and
+                        Solid works. The interview preparation sessions were incredibly helpful in securing my dream
+                        job.
+                        Thank you, Skill Book!"</p>
+                  </div>
                </div>
-            </div>
-            <div class="feedbackCards">
-               <div class="leftFeedBack">
-                  <img src="img\testimonial\gourav.png" alt="">
+               <div class="feedbackCards">
+                  <div class="leftFeedBack">
+                     <img src="img\testimonial\namita.png" alt="">
+                  </div>
+                  <div class="rightFeedBack">
+                     <h3>Namita</h3>
+                     <h4>Graphic Designing</h4>
+                     <div class="redLine"></div>
+                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                     <p>I thoroughly enjoyed the Introduction to Graphic Design course. It was a fantastic introduction
+                        to
+                        the field and equipped me with both technical skills and creative confidence. I would highly
+                        recommend this course to anyone interested in pursuing a career in graphic design.</p>
+                  </div>
                </div>
-               <div class="rightFeedBack">
-                  <h3>Gourav</h3>
-                  <h4>Mechinical Design</h4>
-                  <div class="redLine"></div>
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                     class="fas fa-star"></i><i class="fas fa-star"></i>
-                  <p>"Being from a mechanical background, my experience at Skill Book Skill Development Centre was
-                     phenomenal. I learned fundamental engineering drawing techniques and mastered AutoCAD 2D+3D and
-                     Solid works. The interview preparation sessions were incredibly helpful in securing my dream job.
-                     Thank you, Skill Book!"</p>
+               <div class="feedbackCards">
+                  <div class="leftFeedBack">
+                     <img src="img\testimonial\chandan.png" alt="">
+                  </div>
+                  <div class="rightFeedBack">
+                     <h3>Chandan</h3>
+                     <h4>ADCA</h4>
+                     <div class="redLine"></div>
+                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                     <p>Skill Book Skill Development Centre offers top-notch computer classes where I learned a variety
+                        of courses including Basic Computer, ADCA, Tally + GST, Advanced Excel, and Graphic Designing.
+                        The placement assistance ensured I was job-ready upon completion. Thank you, Skill Book, for
+                        boosting my career prospects!</p>
+                  </div>
                </div>
-            </div>
-            <div class="feedbackCards">
-               <div class="leftFeedBack">
-                  <img src="img\testimonial\namita.png" alt="">
+               <div class="feedbackCards">
+                  <div class="leftFeedBack">
+                     <img src="img\testimonial\abhishek.png" alt="">
+                  </div>
+                  <div class="rightFeedBack">
+                     <h3>Abhishek</h3>
+                     <h4>Autocad Mechanical Design</h4>
+                     <div class="redLine"></div>
+                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                     <p>I found the AutoCAD Mechanical course to be a valuable experience that equipped me with
+                        essential skills for my future career in mechanical engineering. The combination of theoretical
+                        knowledge and practical application was particularly beneficial. I would recommend this course
+                        to anyone looking to deepen their understanding of mechanical design software.</p>
+                  </div>
                </div>
-               <div class="rightFeedBack">
-                  <h3>Namita</h3>
-                  <h4>Graphic Designing</h4>
-                  <div class="redLine"></div>
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                     class="fas fa-star"></i><i class="fas fa-star"></i>
-                  <p>I thoroughly enjoyed the Introduction to Graphic Design course. It was a fantastic introduction to
-                     the field and equipped me with both technical skills and creative confidence. I would highly
-                     recommend this course to anyone interested in pursuing a career in graphic design.</p>
+               <div class="feedbackCards">
+                  <div class="leftFeedBack">
+                     <img src="img\testimonial\kavita.png" alt="">
+                  </div>
+                  <div class="rightFeedBack">
+                     <h3>Kavita</h3>
+                     <h4>Autocad 3dx Max</h4>
+                     <div class="redLine"></div>
+                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                     <p>Best Institute ever to Learn AutoCAD & 3dx Max ! This Institute provides you the best education
+                        in proper and affordable fees. The staff is very Co-Operative , understands you in better way
+                        and clear your doubts every time . Here every student gets personal attention. They will explain
+                        you again and again until your doubt get clears and get you understand the concept easily. They
+                        also teach Revit and 3D Max It was a great experience learning here.</p>
+                  </div>
                </div>
-            </div>
-            <div class="feedbackCards">
-               <div class="leftFeedBack">
-                  <img src="img\testimonial\namita.png" alt="">
+               <div class="feedbackCards">
+                  <div class="leftFeedBack">
+                     <img src="img\testimonial\prince.png" alt="">
+                  </div>
+                  <div class="rightFeedBack">
+                     <h3>Prince</h3>
+                     <h4>AutoCAD & Solidworks</h4>
+                     <div class="redLine"></div>
+                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                     <p>I Have complete Autocad 2d and Solidworks and great experience It was very awesome to teaching
+                        here faculty are very helpful.The teaching system very good and nice place I have complete study
+                        in here.</p>
+                  </div>
                </div>
-               <div class="rightFeedBack">
-                  <h3>Namita</h3>
-                  <h4>Graphic Designing</h4>
-                  <div class="redLine"></div>
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                     class="fas fa-star"></i><i class="fas fa-star"></i>
-                  <p>I thoroughly enjoyed the Introduction to Graphic Design course. It was a fantastic introduction to
-                     the field and equipped me with both technical skills and creative confidence. I would highly
-                     recommend this course to anyone interested in pursuing a career in graphic design.</p>
+               <div class="feedbackCards">
+                  <div class="leftFeedBack">
+                     <img src="img\testimonial\harsh.png" alt="">
+                  </div>
+                  <div class="rightFeedBack">
+                     <h3>Harsh</h3>
+                     <h4>AutoCAD & Solidworks</h4>
+                     <div class="redLine"></div>
+                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                     <p>I had a good experience with teaching. Good institute and really friendly environment. Shall
+                        recommend this class to everyone.The lab equipment provided is really helpful.</p>
+                  </div>
                </div>
-            </div>
-            <div class="feedbackCards">
-               <div class="leftFeedBack">
-                  <img src="img\testimonial\namita.png" alt="">
-               </div>
-               <div class="rightFeedBack">
-                  <h3>Namita</h3>
-                  <h4>Graphic Designing</h4>
-                  <div class="redLine"></div>
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                     class="fas fa-star"></i><i class="fas fa-star"></i>
-                  <p>I thoroughly enjoyed the Introduction to Graphic Design course. It was a fantastic introduction to
-                     the field and equipped me with both technical skills and creative confidence. I would highly
-                     recommend this course to anyone interested in pursuing a career in graphic design.</p>
-               </div>
+
             </div>
          </div>
       </section>
 
+
+      <section id="studentspeaks">
+         <div class="studentspeaksLeftCh">
+            <h3>Straight from our learners' hearts!</h3>
+            <p>It is always joyful to enable passionate learners in their journey to success. Watch our learners share
+               their experiences with learning at Skill Book</p>
+
+         </div>
+         <div class="studentspeaksRightCh">
+            <div class="imagesDiv">
+               <img src="img/studentspeaks/speek_1 (1).jpg" alt="">
+               <br>
+               <img src="img/studentspeaks/SPEEK_2_PIC.png" alt="">
+            </div>
+            <div class="watchText">
+               <div>
+                  <h4 style="font-size: 2.5rem;"><span style="color: red;">STUDENT</span><br> <span
+                        style="color: black;">SPEAKS</span></h4>
+               </div>
+               <div><img src="img/studentspeaks/speek_icons (1).png" alt="" width="46px"
+                     style="position: relative;left: 70%;bottom: 40px;"></div>
+               <div><a
+                     href="https://youtube.com/playlist?list=PL4ZAAli8lrsRYlLw7vg6RzX5YH5j6X22T&si=jX8ApxweWr6_Xtmb"><img
+                        src="img/studentspeaks/watch now (1).png" alt=""></a></div>
+            </div>
+         </div>
+      </section>
 
       <div class="knock-us-area bg-color-0057b8 ptb-100">
          <div class="container">
@@ -1597,6 +1777,93 @@
             </div>
          </div>
       </div>
+
+      <section class="contactSec" style="max-width: 1540px;">
+
+         <div class="formandmap">
+            <div class="cntbox1" style="justify-content: end;">
+               <!-- <div class="modal-dialog"> -->
+               <div class="modal-content" style="width: 88%;gap: 70px;">
+                  <div class="modal-header" style="justify-content: center;">
+                     <h5 class="modal-title" id="exampleModalLabel">Course Enquiry</h5>
+                     <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                           fdprocessedid="qlf6lc"></button> -->
+                  </div>
+                  <div class="modal-body">
+                     <div class="appointments-form fmghmghjh">
+                        <form>
+                           <div class="row">
+                              <div class="col-lg-12 col-md-12">
+                                 <div class="form-group sfbdfbdfdggdf">
+                                    <input type="text" class="form-control" placeholder="Enter Name"
+                                       fdprocessedid="cuha">
+                                 </div>
+                              </div>
+                              <div class="col-lg-12 col-md-12">
+                                 <div class="form-group sfbdfbdfdggdf">
+                                    <input type="text" class="form-control" placeholder="Enter Mobile No"
+                                       fdprocessedid="le1im6">
+                                 </div>
+                              </div>
+                              <div class="col-lg-12 col-md-12">
+                                 <div class="form-group sfbdfbdfdggdf">
+                                    <input type="email" class="form-control" placeholder="Enter Email"
+                                       fdprocessedid="8xqcot">
+                                 </div>
+                              </div>
+                              <div class="col-lg-12 col-md-12">
+                                 <div class="form-group sfbdfbdfdggdf">
+                                    <select class="form-select form-control" aria-label="Default select example"
+                                       fdprocessedid="pxhoig">
+                                       <option selected="" disabled="">Select Course</option>
+                                       <option value="Advance Diploma in Computer Application">Advance Diploma in
+                                          Computer Application</option>
+                                       <option value="Diploma in Computer Application">Diploma in Computer
+                                          Application
+                                       </option>
+                                       <option value="Diploma in Financial Accounting">Diploma in Financial
+                                          Accounting
+                                       </option>
+                                       <option value="Certificate in Financial Accounting">Certificate in Financial
+                                          Accounting</option>
+                                    </select>
+                                 </div>
+                              </div>
+                              <div class="col-lg-12">
+                                 <div class="form-group sfbdfbdfdggdf">
+                                    <textarea class="form-control" placeholder="Write A Message"></textarea>
+                                 </div>
+                              </div>
+                              <div class="col-lg-12">
+                                 <button type="submit" class="default-btn active sfbdfbdf" fdprocessedid="j0ah99">
+                                    Submit
+                                 </button>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+               <!-- </div> -->
+
+
+            </div>
+            <div class="cntbox2">
+
+               <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d586.9634723985773!2d77.10739548498117!3d28.711070881795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01858edc697d%3A0x4cae8b0a909d83da!2sSkill%20Book%20Skill%20Development%20Centre!5e0!3m2!1sen!2sin!4v1728808498291!5m2!1sen!2sin"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+         </div>
+
+
+
+         </div>
+
+
+      </section>
 
       <%- include("common/footer.ejs") %>
          <div class="go-top"><i class="ri-arrow-up-s-fill"></i><i class="ri-arrow-up-s-fill"></i></div>
