@@ -67,11 +67,31 @@ app.get("/forgot-password", (req, res)=>{
 app.get("/student-login", (req, res)=>{
     res.render("student-login")
 })
+
+
 app.get("/course-details", (req, res)=>{
     res.render("course-details")
 })
+app.get("/course-details2", (req, res)=>{
+    res.render("course-details2")
+})
+app.get("/course-details3", (req, res)=>{
+    res.render("course-details3")
+})
+app.get("/course-details4", (req, res)=>{
+    res.render("course-details4")
+})
+
+
+
 app.get("/ourvideos", (req, res)=>{
     res.render("ourvideos")
+})
+app.get("/career", (req, res)=>{
+    res.render("career")
+})
+app.get("/event-details", (req, res)=>{
+    res.render("event-details")
 })
 
 

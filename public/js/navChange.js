@@ -11,7 +11,7 @@ let reviewsContent = document.querySelector("#myTabContent> div:nth-child(4)");
 function clickOnTheTab(e){
     
 
-    if(e.textContent.trim()=="Curriculum"){
+    if(e.textContent.trim()=="Why You Choose Us"){
         Overview.classList.remove("active");
         Curriculum.classList.add("active");
         Instructors.classList.remove("active");

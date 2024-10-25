@@ -1,221 +1,1227 @@
 <!DOCTYPE html>
 <html lang="zxx">
-   <head>
-      <title>Gallery :: Yourskill Book</title>
-      <link rel="icon" type="image/png" href="img/fav.png">
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/owl.theme.default.min.css">
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
-      <link rel="stylesheet" href="css/swiper-bundle.min.css">
-      <link rel="stylesheet" href="css/flaticon.css">
-      <link rel="stylesheet" href="css/remixicon.css">
-      <link rel="stylesheet" href="css/meanmenu.min.css">
-      <link rel="stylesheet" href="css/odometer.min.css">
-      <link rel="stylesheet" href="css/animate.min.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/dark-mode.css">
-      <link rel="stylesheet" href="css/responsive.css">
-      <link rel="stylesheet" href="css/gallery.css">
-      <link rel="stylesheet" href="fontawesome/css/all.css">
-   </head>
-   <body>
-      <%- include("common/header.ejs") %>
-      <section class="sfnvbdfdf" style="background: url(img/TOP.jpg);height: 300px;>
-       <!-- <div class="row"> -->
-          <!-- <h1>Gallery</h1> -->
-          <!-- </div> -->
-       </section>
-      <section class="fbdfdbdfbdf">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-2">
-                  <p>Latest Updates :-</p>
-               </div>
-               <div class="col-md-10">
-                  <marquee behavior="scroll" direction="left" onmousedown="this.stop()" onmouseup="this.start()">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</marquee>
-               </div>
+
+<head>
+    <title>Gallery :: Yourskill Book</title>
+    <link rel="icon" type="image/png" href="img/fav.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/remixicon.css">
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <link rel="stylesheet" href="css/odometer.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="ourvideos\style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/animate.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/ourvideos/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/owl.theme.default.css" />
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/dl-menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/nice-select.css" />
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/venobox.css" />
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/layers.css" />
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/settings.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/ourvideos/responsive.css" />
+    <link rel="stylesheet" id="theme-color" type="text/css" href="#" />
+</head>
+
+<body>
+    <%- include("common/header.ejs") %>
+
+
+        <!-- prs theater Slider Start -->
+        <div class="prs_theater_main_slider_wrapper">
+            <div class="prs_theater_img_overlay"></div>
+            <div class="prs_theater_sec_heading_wrapper">
+                <h2>Our All Course</h2>
             </div>
-         </div>
-      </section>
-      <section class="dfbljkdfgbdfg" style="margin-top: 4px;">
-       <div class="container">
-           <div class="section-title services-title wow animate__animated animate__fadeInUp delay-0-2s">
-               <span class="top-title">Videos</span>
-               <h2>Our Video Gallery</h2>
+            <div class="wrap-album-slider">
+                <div class="bx-wrapper" style="max-width: 1901px;">
+                    <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 482px;">
+                        <ul class="album-slider" style="width: 915%; position: relative; left: -303.236px;">
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item --><!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item --><!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item --><!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item --><!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- End slider -->
             </div>
-           <div class="w3ls_gallery_grids">
+        </div>
+        <!-- prs theater Slider End -->
+        <!-- prs theater Slider Start -->
+        <div class="prs_theater_main_slider_wrapper">
+            <div class="prs_theater_img_overlay"></div>
+            <div class="prs_theater_sec_heading_wrapper">
+                <h2>CAD Course</h2>
+            </div>
+            <div class="wrap-album-slider">
+                <div class="bx-wrapper" style="max-width: 1901px;">
+                    <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 482px;">
+                        <ul class="album-slider" style="width: 915%; position: relative; left: -303.236px;">
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
 
-			<div class="row w3_section_1_gallery_grid">
-                <!-- start -->
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<!-- <img src="img/slider/1.png"class="img-responsive" /> -->
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VmYnSd32uL0?si=oZoM-XbdxMPRlmrZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						</div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<!-- <img src="img/slider/1.png"class="img-responsive" /> -->
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/69aJfHqhENk?si=rCsO70dy_mXprBHe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<!-- <img src="img/slider/1.png"class="img-responsive" /> -->
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VmYnSd32uL0?si=oZoM-XbdxMPRlmrZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						</div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<!-- <img src="img/slider/1.png"class="img-responsive" /> -->
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TG6Cg1lSNf0?si=FQj1COnPSOjG5kgT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<!-- <img src="img/slider/1.png"class="img-responsive" /> -->
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2M7_dweM6X0?si=ql56JyAxelnjQ9a9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<!-- <img src="img/slider/1.png"class="img-responsive" /> -->
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/xkLIFyd66-A?si=2eU4TyrZG-ZEd_Wz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<!-- <img src="img/slider/1.png"class="img-responsive" /> -->
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/I3k5Yaef_hU?si=-WV7mvPr8-XVnmf5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<!-- <img src="img/slider/1.png"class="img-responsive" /> -->
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/69aJfHqhENk?si=0g74dXLW-YGWhPUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<!-- <img src="img/slider/1.png"class="img-responsive" /> -->
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/T7UlmEaz-lI?si=-nAMsSJxjOEpmce9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<!-- <img src="img/slider/1.png"class="img-responsive" /> -->
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/iThwcSC-Ljg?si=-_4XTvR3zHrN28BT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<!-- <img src="img/slider/1.png"class="img-responsive" /> -->
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hEwvkdSYa_I?si=-xHe08a3cWwfFtRy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<!-- <img src="img/slider/1.png"class="img-responsive" /> -->
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fMk6tuXgu8E?si=hE_ZZYleIbLGuFDi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/pv8G717F2r4?si=6f9KNmZ6yd02Blmq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/TLNrW0n13mA?si=7E2GRdeMl8DFeuWN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/fv4i8K5bJcU?si=T_235QM38Go8IQdt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/nQY-AD8_oo0?si=eZ_ltKbCfTfRhj9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/F1QIooYjAyw?si=85GtrvJ_MvekcGFV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-					<!-- </a> -->
-				</div>
-                <div class="col-md-4 section_1_gallery_grid">
-					<!-- <a href="img/slider/1.png"> -->
-						<div class="section_1_gallery_grid1">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HLZYaXH0nA4?si=detA6YGf9v_be22a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>	
-                        </div>
-					<!-- </a> -->
-				</div>
-                <!-- end -->
-                
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
 
-				</div>
-                   
-                   </div>
-           
-           </div>
-       </section>
-      
-       <%- include("common/footer.ejs") %>
-      <div class="go-top"><i class="ri-arrow-up-s-fill"></i><i class="ri-arrow-up-s-fill"></i></div>
-      <script data-cfasync="false" src="js/email-decode.min.js"></script>
-       <script src="js/jquery.min.js"></script>
-       <script src="js/bootstrap.bundle.min.js"></script>
-       <script src="js/meanmenu.min.js"></script>
-       <script src="js/owl.carousel.min.js"></script>
-       <script src="js/swiper-bundle.min.js"></script>
-       <script src="js/appear.min.js"></script>
-       <script src="js/odometer.min.js"></script>
-       <script src="js/wow.min.js"></script>
-       <script src="js/form-validator.min.js"></script>
-       <script src="js/contact-form-script.js"></script>
-       <script src="js/ajaxchimp.min.js"></script>
-       <script src="js/custom.js"></script>
-       <script src="js/gallery.js"></script>
-       <script>
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
 
-		$('.w3_section_1_gallery_grid a').simpleLightbox();
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
 
-	</script>
-   </body>
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item --><!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item --><!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item --><!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item --><!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- End slider -->
+            </div>
+        </div>
+        <!-- prs theater Slider End -->
+
+        <!-- prs theater Slider Start -->
+        <div class="prs_theater_main_slider_wrapper">
+            <div class="prs_theater_img_overlay"></div>
+            <div class="prs_theater_sec_heading_wrapper">
+                <h2>Diploma Course</h2>
+            </div>
+            <div class="wrap-album-slider">
+                <div class="bx-wrapper" style="max-width: 1901px;">
+                    <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 482px;">
+                        <ul class="album-slider" style="width: 915%; position: relative; left: -303.236px;">
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                            <!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item --><!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item --><!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item --><!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item --><!-- End album slider item -->
+                            <li class="album-slider__item"
+                                style="float: left; list-style: none; position: relative; width: 257px; margin-right: 17px;">
+                                <figure class="album">
+                                    <div class="prs_upcom_movie_box_wrapper">
+                                        <div class="prs_upcom_movie_img_box">
+                                            <video controls="controls" width="250" id="video"
+                                                style="border-radius: 8px;">
+                                                <source
+                                                    src="https://github.com/yourskillbook/video-for-web-2-/raw/refs/heads/main/ind event 570.630.mp4">
+
+                                            </video>
+                                        </div>
+                                        <div class="prs_upcom_movie_content_box">
+                                            <div class="prs_upcom_movie_content_box_inner">
+                                                <h2><a href="#">Independence Day</a></h2>
+                                                <p>Drama , Acation</p> <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="prs_upcom_movie_content_box_inner_icon">
+                                                <ul>
+                                                    <li><a href="movie_booking.html"><i
+                                                                class="flaticon-cart-of-ecommerce"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End album body -->
+                                </figure>
+                                <!-- End album -->
+                            </li>
+                            <!-- End album slider item -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- End slider -->
+            </div>
+        </div>
+        <!-- prs theater Slider End -->
+
+
+
+        <!--main js file start-->
+        <script src="js/ourvideos/jquery_min.js"></script>
+        <!-- <script src="js/ourvideos/bootstrap.js"></script> -->
+        <!-- <script src="js/ourvideos/modernizr.js"></script> -->
+        <script src="js/ourvideos/owl.carousel.js"></script>
+        <script src="js/ourvideos/jquery.dlmenu.js"></script>
+        <script src="js/ourvideos/jquery.sticky.js"></script>
+        <script src="js/ourvideos/jquery.nice-select.min.js"></script>
+        <script src="js/ourvideos/jquery.magnific-popup.js"></script>
+        <script src="js/ourvideos/jquery.bxslider.min.js"></script>
+        <script src="js/ourvideos/venobox.min.js"></script>
+        <script src="js/ourvideos/smothscroll_part1.js"></script>
+        <script src="js/ourvideos/smothscroll_part2.js"></script>
+        <!-- <script src="js/ourvideos/jquery.countTo.js"></script> -->
+        <!-- <script src="js/ourvideos/jquery.inview.min.js"></script> -->
+        <!-- <script src="js/ourvideos/jquery.themepunch.revolution.min.js"></script> -->
+        <!-- <script src="js/ourvideos/jquery.themepunch.tools.min.js"></script> -->
+        <!-- <script src="js/ourvideos/revolution.addon.snow.min.js"></script> -->
+        <!-- <script src="js/ourvideos/revolution.extension.actions.min.js"></script> -->
+        <!-- <script src="js/ourvideos/revolution.extension.carousel.min.js"></script> -->
+        <!-- <script src="js/ourvideos/revolution.extension.kenburn.min.js"></script> -->
+        <!-- <script src="js/ourvideos/revolution.extension.layeranimation.min.js"></script> -->
+        <!-- <script src="js/ourvideos/revolution.extension.migration.min.js"></script> -->
+        <!-- <script src="js/ourvideos/revolution.extension.navigation.min.js"></script> -->
+        <!-- <script src="js/ourvideos/revolution.extension.parallax.min.js"></script> -->
+        <!-- <script src="js/ourvideos/revolution.extension.slideanims.min.js"></script> -->
+        <!-- <script src="js/ourvideos/revolution.extension.video.min.js"></script> -->
+        <script src="js/ourvideos/custom.js"></script>
+        <!--main js file end-->
+
+
+        <span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
+
+        <%- include("common/footer.ejs") %>
+            <div class="go-top"><i class="ri-arrow-up-s-fill"></i><i class="ri-arrow-up-s-fill"></i></div>
+            <script data-cfasync="false" src="js/email-decode.min.js"></script>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/meanmenu.min.js"></script>
+            <script src="js/owl.carousel.min.js"></script>
+            <script src="js/swiper-bundle.min.js"></script>
+            <script src="js/appear.min.js"></script>
+            <script src="js/odometer.min.js"></script>
+            <script src="js/wow.min.js"></script>
+            <script src="js/form-validator.min.js"></script>
+            <script src="js/contact-form-script.js"></script>
+            <script src="js/ajaxchimp.min.js"></script>
+            <script src="js/custom.js"></script>
+            <script src="js/gallery.js"></script>
+            <script>
+
+                $('.w3_section_1_gallery_grid a').simpleLightbox();
+
+            </script>
+</body>
+
 </html>

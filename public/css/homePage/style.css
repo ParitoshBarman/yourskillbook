@@ -106,6 +106,9 @@
 .contactSec>.formandmap>.cntbox1 {
     background-color: white;
 }
+.contactSec>.formandmap>.cntbox1 > div{
+    width: 49%;
+}
 
 /* .contactSec>.formandmap>.cntbox2 {
     background-color: gray;

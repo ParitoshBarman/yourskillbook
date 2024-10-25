@@ -1,0 +1,126 @@
+*{
+    font-family: "Ubuntu", sans-serif;
+  }
+
+.careerHero{
+    background-color: #01b0f1;
+    height: 400px;
+}
+.careerHero h1{
+    text-align: left;
+    color: white;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 28px;
+}
+.careerSearchSec{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+
+.careerSearchSec form{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.careerSearchSec form input{
+    width: 100%;
+}
+
+.viewOpening{
+    margin: 100px 0;
+}
+.viewOpening>.cards{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    font-family: "Ubuntu", sans-serif;
+}
+.viewOpening>.cards>.card{
+    width: 300px;
+    padding: 25px;
+    /* text-align: center; */
+}
+.viewOpening>.cards>.card>a{
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid red;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    font-weight: 500;
+}
+
+.boost-your-career-sec{
+    background-color: #01b0f1;
+    padding: 40px 5px;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+.boost-your-career-sec>div{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+}
+.boost-your-career-sec>div>h2{
+    color: white;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+.boost-your-career-sec>div>p{
+    margin-bottom: 60px;
+    font-size: 1.1rem;
+
+}
+.boost-your-career-sec>div>a{
+    color: white;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 25px;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+.AboutSkillBookCareer{
+    padding: 50px 0;
+}
+.AboutSkillBookCareer>.AboutSkillBookCareerChildSEc{
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+    color: red;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.AboutSkillBookCareer>.AboutSkillBookCareerChildSEc>.imageSec{
+    width: 27%;
+    max-width: 600px;
+    min-width: 300px;
+}
+.AboutSkillBookCareer>.AboutSkillBookCareerChildSEc>.imageSec>img{
+    max-width: 100%;
+}
+.AboutSkillBookCareer>.AboutSkillBookCareerChildSEc>.contentSec{
+    padding-top: 10px;
+    width: 65%;
+}
+.AboutSkillBookCareer>.AboutSkillBookCareerChildSEc>.contentSec>h3{
+    color: red;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+}
+.AboutSkillBookCareer>.AboutSkillBookCareerChildSEc>.contentSec>p{
+    font-size: 1.1rem;
+}
