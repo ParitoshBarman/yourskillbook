@@ -1679,7 +1679,7 @@ iframe {
 	width: 100%;
 }
 .sab_banner{
-	padding:120px 0px 140px;
+	padding:100px 0px 120px;
 	/* background-image: url("img/event/"); */
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1695,7 +1695,7 @@ iframe {
 	bottom: 0px;
 	opacity: 0.9;
 	background-color: #ea1b2c;
-	background:radial-gradient(ellipse at center, #ea1b2c 16%, #000 190%);
+	background:radial-gradient(ellipse at center, #ea1b2c73 16%, #000 190%);
 }
 .sab_banner_text{
 	text-align: center;

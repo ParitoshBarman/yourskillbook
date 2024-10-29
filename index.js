@@ -93,6 +93,66 @@ app.get("/career", (req, res)=>{
 app.get("/event-details", (req, res)=>{
     res.render("event-details")
 })
+app.get("/event-detailsup1", (req, res)=>{
+    res.render("event-detailsup1")
+})
+app.get("/event-detailsup2", (req, res)=>{
+    res.render("event-detailsup2")
+})
+app.get("/event-detailsup3", (req, res)=>{
+    res.render("event-detailsup3")
+})
+
+
+app.get("/event-details1", (req, res)=>{
+    res.render("event-details1")
+})
+app.get("/event-details2", (req, res)=>{
+    res.render("event-details2")
+})
+app.get("/event-details3", (req, res)=>{
+    res.render("event-details3")
+})
+app.get("/event-details4", (req, res)=>{
+    res.render("event-details4")
+})
+app.get("/event-details5", (req, res)=>{
+    res.render("event-details5")
+})
+app.get("/event-details6", (req, res)=>{
+    res.render("event-details6")
+})
+
+app.get("/event-details7", (req, res)=>{
+    res.render("event-details7")
+})
+
+app.get("/event-details8", (req, res)=>{
+    res.render("event-details8")
+})
+
+app.get("/event-details9", (req, res)=>{
+    res.render("event-details9")
+})
+
+app.get("/event-details10", (req, res)=>{
+    res.render("event-details10")
+})
+
+app.get("/event-details11", (req, res)=>{
+    res.render("event-details11")
+})
+
+app.get("/event-details12", (req, res)=>{
+    res.render("event-details12")
+})
+
+app.get("/event-details13", (req, res)=>{
+    res.render("event-details13")
+})
+app.get("/event-details14", (req, res)=>{
+    res.render("event-details14")
+})
 
 
 app.listen(port, ()=>{
