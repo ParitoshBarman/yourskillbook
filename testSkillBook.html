@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn_submit">
+        Submit
+    </button>
+    
+</body>
+
+<script>
+    document.querySelector('#btn_submit').addEventListener('click', async function (event) {
+            event.preventDefault(); // Prevent the default form submission
+            console.log("Clicked...")
+    
+            // Get form data
+            const formData = {
+                student_name:"RahimTest",
+                phone_no : 8920350124,
+                email_id:"hhkjlkjlj@gmail.com",
+                course_id:1,
+                message:"Hi this is test message"
+            };
+    
+            try {
+                const response = await fetch('https://yourskillbook.com/apiskill/course_enquiry', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                });
+    
+                // Check if the response is ok
+                if (response.ok) {
+                    const result = await response.json();
+                    console.log(result);
+                    alert('Message sent successfully!');
+                    // Clear form fields
+                } else {
+                    throw new Error('Failed to send the message.');
+                }
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        });
+</script>
+</html>

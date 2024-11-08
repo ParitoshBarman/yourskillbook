@@ -67,6 +67,9 @@ app.get("/forgot-password", (req, res)=>{
 app.get("/student-login", (req, res)=>{
     res.render("student-login")
 })
+app.get("/studentDashboard", (req, res)=>{
+    res.render("studentDashboard")
+})
 
 
 app.get("/course-details", (req, res)=>{
