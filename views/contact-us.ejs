@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Home :: Yourskill Book</title>
+    <link rel="icon" type="image/png" href="img/fav.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/flaticon.css">
+    <link rel="stylesheet" href="/css/remixicon.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/meanmenu.min.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/odometer.min.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/animate.min.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/style.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/dark-mode.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/responsive.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/SillGrow.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/SillGrowMediaQry.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/newcrsl/style.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/testtimonial/testimonial.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/testtimonial/newsandevents.css">
+    <link rel="stylesheet" href="https://skb.founderclasses.in/protected-public/css/homePage/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .accordion-header>button>a {
+            color: #000;
+        }
+
+        .listborder {
+            margin-left: 15px;
+        }
+
+        .listborder a {
+            color: rgb(58, 57, 57);
+            text-decoration: none;
+        }
+
+        .lisbgcolor {
+            background-color: #d218251a;
+        }
+
+        .listborder:hover {
+            /* border-bottom: 1px solid red; */
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            transition: 1s;
+        }
+
+        .crslchagebtn {
+            background-color: red;
+            padding: 17px;
+        }
+
+
+        @media screen and (max-width:1066px) {
+            .crslchagebtn {
+                padding: 0;
+            }
+
+        }
+
+        @media (min-width: 1200px) {
+
+            .container,
+            .container-lg,
+            .container-md,
+            .container-sm,
+            .container-xl {
+                max-width: 1360px;
+            }
+        }
+
+
+        .coursulExtraNeed {
+            margin-left: 3vw;
+            /* border: 2px solid red;
+   border-radius: 5px; */
+            padding: 0 7px;
+            font-size: 29px;
+        }
+
+        .moreButtons>a {
+            color: red;
+        }
+
+        .moreButtons:hover a {
+            color: white;
+            background-color: red;
+        }
+    </style>
+
+    <!-- <style>
+      .mobile-responsive-menu>.mean-bar > .mean-nav>.navbar-nav{
+         background-color: green;
+         display: flex;
+      } 
+   </style> -->
+
+    <style>
+        .contactDetails {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .contactConnect{
+            margin: auto;
+            max-width: 900px;
+            padding: 60px 0 50px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 55px;
+            
+        }
+        .contactConnect>div>div{
+            margin: 13px 0;
+        }
+
+        .contactConnect>div img{
+            width: 60px;   
+            border-radius: 50%;
+        }
+
+
+
+        .cntbox1{
+                justify-content: end;
+            }
+
+        @media only screen and (max-width: 767px) {
+            .contactSec>.formandmap{
+                flex-direction: column;
+            }
+            .contactSec>.formandmap>div{
+                width: 100%;
+            }
+            .cntbox1{
+                justify-content: center;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <%- include("common/header.ejs") %>
+
+        <section class="contactHero">
+            <div>
+                <img src="img/contact/career_page_image.png" alt="">
+            </div>
+
+        </section>
+
+        <section class="contactDetails" style="background-color: #f1f5f8;">
+            <div>
+                <h1 style="font-size: 55px;font-weight: bold;">Get In Touch</h1>
+                <h3 style="font-weight: bold;">“The most important quality of a student is<br>
+                    to always ask questions”</h3>
+            </div>
+
+            <div class="contactConnect">
+                <div>
+                    <div>
+                        <img src="img/contact/location.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>D6/54, 2nd Floor Rohini Sec - 6<br>
+                            Nearby Vishram Chowk Delhi - 85</p>
+                    </div>
+                    
+                </div>
+                <div>
+                    <div>
+                        <img src="img/contact/email.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>skill.book24@gmail.com</p>
+                    </div>
+
+                </div>
+                <div>
+                    <div>
+                        <img src="img/contact/call.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>+91 9582350124, 8920350124</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="contactSec" style="max-width: 1540px;" id="contactIncq">
+
+            <div class="formandmap">
+                <div class="cntbox1">
+                    <!-- <div class="modal-dialog"> -->
+                    <div class="modal-content" style="width: 90%;gap: 60px;">
+                        <div class="modal-header" style="justify-content: center;">
+                            <h5 class="modal-title" id="exampleModalLabel">Course Enquiry</h5>
+                            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                           fdprocessedid="qlf6lc"></button> -->
+                        </div>
+                        <div class="modal-body">
+                            <div class="appointments-form fmghmghjh">
+                                <form id="course_enquiry_form">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+                                            <div class="form-group sfbdfbdfdggdf">
+                                                <input type="text" class="form-control" placeholder="Enter Name"
+                                                    fdprocessedid="cuha" id="student_name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12">
+                                            <div class="form-group sfbdfbdfdggdf">
+                                                <input type="text" class="form-control" placeholder="Enter Mobile No"
+                                                    fdprocessedid="le1im6" id="phone_no">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12">
+                                            <div class="form-group sfbdfbdfdggdf">
+                                                <input type="email" class="form-control" placeholder="Enter Email"
+                                                    fdprocessedid="8xqcot" id="email_id">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12">
+                                            <div class="form-group sfbdfbdfdggdf">
+                                                <select class="form-select form-control"
+                                                    aria-label="Default select example" fdprocessedid="pxhoig"
+                                                    id="course_id">
+                                                    <option selected="" disabled="">Select Course</option>
+                                                    <option value="0">Advance Diploma in
+                                                        Computer Application</option>
+                                                    <option value="1">Diploma in Computer
+                                                        Application
+                                                    </option>
+                                                    <option value="2">Diploma in Financial
+                                                        Accounting
+                                                    </option>
+                                                    <option value="3">Certificate in Financial
+                                                        Accounting</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group sfbdfbdfdggdf">
+                                                <textarea class="form-control" placeholder="Write A Message"
+                                                    id="message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <button class="default-btn active sfbdfbdf">
+                                                Submit
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+
+
+                </div>
+                <div class="cntbox2">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d586.9634723985773!2d77.10739548498117!3d28.711070881795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01858edc697d%3A0x4cae8b0a909d83da!2sSkill%20Book%20Skill%20Development%20Centre!5e0!3m2!1sen!2sin!4v1728808498291!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+
+
+
+            </div>
+
+
+        </section>
+
+        <%- include("common/footer.ejs") %>
+            <div class="go-top"><i class="ri-arrow-up-s-fill"></i><i class="ri-arrow-up-s-fill"></i></div>
+
+
+
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
+
+            <script>
+                let hambargerMenu = document.querySelector(".mobile-responsive-menu>.mean-bar>a");
+                let hambargerMenulist = document.querySelector(".mobile-responsive-menu>.mean-bar > .mean-nav>.navbar-nav");
+
+                hambargerMenulist.style.display = "none";
+
+
+                hambargerMenu.addEventListener("click", () => {
+                    console.log(hambargerMenulist.style.display);
+                    if (hambargerMenulist.style.display == "none") {
+                        hambargerMenulist.style.display = "";
+                    }
+                    else {
+                        hambargerMenulist.style.display = "none";
+                    }
+
+                })
+
+
+            </script>
+
+            <script>
+                let courseListPopUp = document.getElementsByClassName("form-select");
+
+
+                async function fetchCourseList() {
+                    const response = await fetch('https://yourskillbook.com/apiskill/course_list', {
+                        method: 'POST',
+                        body: JSON.stringify({ company_id: 1 })
+                    });
+
+                    let courses = await response.json()
+                    courseListPopUp[0].innerHTML = null;
+                    courseListPopUp[1].innerHTML = null;
+
+                    let option = document.createElement('option')
+                    option.value = "";
+                    option.textContent = 'Select Course';
+
+                    let option2nd = document.createElement('option')
+                    option2nd.value = "";
+                    option2nd.textContent = 'Select Course';
+
+                    courseListPopUp[0].appendChild(option);
+                    courseListPopUp[1].appendChild(option2nd);
+
+
+
+
+                    courses.data.forEach(element => {
+                        let option2 = document.createElement('option');
+                        let option2nd2 = document.createElement('option');
+                        option2.value = element.course_id;
+                        option2.textContent = element.course_name;
+                        courseListPopUp[0].appendChild(option2);
+
+                        option2nd2.value = element.course_id;
+                        option2nd2.textContent = element.course_name;
+                        courseListPopUp[1].appendChild(option2nd2);
+                    });
+
+                }
+
+                fetchCourseList();
+
+
+                let course_enquiry_form = document.querySelector("#course_enquiry_form");
+
+
+                course_enquiry_form.addEventListener("submit", async (e) => {
+                    e.preventDefault();
+                    console.log("Submited...");
+
+                    // Get form data
+                    // const formData = {
+                    //    student_name: document.querySelector('fname').value,
+                    //    phone_no: document.querySelector('input[name="phone"]').value,
+                    //    email_id: document.querySelector('input[name="email"]').value,
+                    //    course_id: document.querySelector('textarea[name="message"]').value,
+                    //    message: document.querySelector('textarea[name="message"]').value,
+                    //       };
+                    const formData = {
+                        student_name: document.querySelector("#student_name").value,
+                        phone_no: document.querySelector("#phone_no").value,
+                        email_id: document.querySelector("#email_id").value,
+                        course_id: document.querySelector("#course_id").value,
+                        message: document.querySelector("#message").value,
+                        company_id: 1
+                    };
+                    console.log(formData);
+                    console.log("company_id", formData.company_id);
+
+                    try {
+                        const response = await fetch('https://yourskillbook.com/apiskill/course_enquiry', {
+                            method: 'POST',
+                            //   headers: {
+                            //       'Content-Type': 'application/json'
+                            //   },
+                            body: JSON.stringify(formData)
+                        });
+
+                        // Check if the response is ok
+                        if (response.ok) {
+                            const result = await response.json();
+                            console.log(result);
+                            document.querySelector("#student_name").value = "";
+                            document.querySelector("#phone_no").value = "";
+                            document.querySelector("#email_id").value = "";
+                            document.querySelector("#course_id").value = "";
+                            document.querySelector("#message").value = "";
+                            alert('Message sent successfully!');
+                            // Clear form fields
+
+                        } else {
+                            throw new Error('Failed to send the message.');
+                        }
+                    } catch (error) {
+                        alert('Error: ' + error.message);
+                    }
+                });
+
+
+                let form = document.querySelector("form");
+                form.addEventListener("submit", async (e) => {
+                    e.preventDefault();
+
+                    const formData = {
+                        student_name: e.target[0].value,
+                        phone_no: e.target[1].value,
+                        email_id: e.target[2].value,
+                        course_id: e.target[3].value,
+                        message: e.target[4].value,
+                        company_id: 1
+                    };
+
+                    console.log(formData);
+                    console.log("company_id", formData.company_id);
+                    try {
+                        const response = await fetch('https://yourskillbook.com/apiskill/course_enquiry', {
+                            method: 'POST',
+                            //   headers: {
+                            //       'Content-Type': 'application/json'
+                            //   },
+                            body: JSON.stringify(formData)
+                        });
+
+                        // Check if the response is ok
+                        if (response.ok) {
+                            const result = await response.json();
+                            console.log(result);
+
+                            e.target[0].value = "";
+                            e.target[1].value = "";
+                            e.target[2].value = "";
+                            e.target[3].value = "";
+                            e.target[4].value = "";
+                            alert('Message sent successfully!');
+                            // Clear form fields
+
+                        } else {
+                            throw new Error('Failed to send the message.');
+                        }
+                    } catch (error) {
+                        alert('Error: ' + error.message);
+                    }
+                })
+
+            </script>
+</body>
+
+</html>

@@ -27,6 +27,37 @@ const staticPath = path.join(__dirname, "public")
 
 const app = express()
 
+const authenticateUser = async (req, res, next) => {
+    try {
+        // Extract token from headers or query parameters
+        const token = req.cookies.token;
+        
+        if (!token) {
+            return res.status(401).json({ error: "Unauthorized, token is required" });
+        }
+
+        // Call external API to verify token
+        const response = await axios.post(
+            process.env.EXTERNAL_API_URL,
+            { token: token },
+            { headers: { "Content-Type": "application/json" } }
+        );
+
+        // Check if token is valid
+        if (response.data.isValid) {
+            // Attach user data to request if needed
+            req.user = response.data.user;
+            next();
+        } else {
+            res.status(401).json({ error: "Unauthorized, invalid token" });
+        }
+    } catch (error) {
+        console.error("Error verifying token:", error);
+        res.status(500).json({ error: "Internal Server Error" });
+    }
+};
+
+
 app.set("view engine", "ejs");
 
 app.use(express.static(staticPath));
@@ -156,6 +187,74 @@ app.get("/event-details13", (req, res)=>{
 app.get("/event-details14", (req, res)=>{
     res.render("event-details14")
 })
+
+
+app.get("/mycourses", (req, res)=>{
+    res.render("mycourses")
+})
+
+app.get("/contact-us", (req, res)=>{
+    res.render("contact-us")
+})
+
+
+// app.get("/studentDashboard", authenticateUser, (req, res) => {
+//     res.render("studentDashboard");
+// });
+
+// app.get("/mycourses", authenticateUser, (req, res) => {
+//     res.render("mycourses");
+// });
+
+
+// Registration Route
+app.post("/register", async (req, res) => {
+    const { username, password, email } = req.body;
+    
+    try {
+        const response = await axios.post(
+            process.env.REGISTER_API_URL,
+            { username, password, email },
+            { headers: { "Content-Type": "application/json" } }
+        );
+
+        // Assuming the API sends a success message
+        if (response.data.success) {
+            res.status(201).json({ message: "User registered successfully!" });
+        } else {
+            res.status(400).json({ error: response.data.error || "Registration failed" });
+        }
+    } catch (error) {
+        console.error("Registration error:", error);
+        res.status(500).json({ error: "Internal Server Error" });
+    }
+});
+
+app.post("/login", async (req, res) => {
+    const { username, password } = req.body;
+
+    try {
+        const response = await axios.post(
+            process.env.LOGIN_API_URL,
+            { username, password },
+            { headers: { "Content-Type": "application/json" } }
+        );
+
+        // If login is successful, render the dashboard or success page
+        if (response.data.token) {
+            res.cookie('token', token, { httpOnly: true });
+            res.render("dashboard", { token: response.data.token, message: "Login successful!" });
+        } else {
+            // If login failed, render login page with an error message
+            res.render("login", { error: response.data.error || "Login failed" });
+        }
+    } catch (error) {
+        console.error("Login error:", error);
+        res.render("login", { error: "Internal Server Error" });
+    }
+});
+
+
 
 
 app.listen(port, ()=>{
